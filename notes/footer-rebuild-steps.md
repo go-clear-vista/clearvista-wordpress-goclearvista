@@ -1,0 +1,54 @@
+# New site footer — install steps
+
+Replaces the current grey footer with a navy footer that matches the redesigned pages:
+a "Ready to start your next project?" call-to-action bar, four columns (brand + social,
+Solutions, Company, Contact) and a slim legal bar.
+
+Where: **wp-admin → Extra → Theme Builder → Default Website Template → Global Footer (pencil icon)**
+
+## 1. Clear out the old footer
+In the footer editor, delete the existing **sections** (the grey section and the black copyright
+section). Tip: open the **Layers** panel (bottom-right) and delete each section there.
+*(Nothing is lost: Theme Builder keeps history, and the old content is described in this repo.)*
+
+## 2. Add one full-width section
+1. Click the blue **+** → **Regular** section → choose the **one-column** row.
+2. Section settings → **Design → Spacing**: padding top **0**, bottom **0**.
+3. Row settings → **Design → Sizing**: Width **100%**, Max Width **100%**;
+   **Spacing**: padding top **0**, bottom **0**.
+
+## 3. Add a Code module
+In the row, add a **Code** module and paste the entire block below into its content box.
+Then **Design → Spacing**: margin bottom **0**. Click ✓.
+
+```html
+<style>.cvf{font-family:inherit;color:#c9cbe0;background:#161834}.cvf a{text-decoration:none}.cvf-cta{background:linear-gradient(90deg,#292d5b,#1d2048);border-bottom:3px solid #d9a13a}.cvf-cta-in{max-width:1240px;margin:0 auto;padding:36px 40px;display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap}.cvf-cta h3{color:#fff;font-size:28px;font-weight:800;margin:0;padding:0;line-height:1.2em}.cvf-cta p{color:#c9cbe0;font-size:16px;margin:4px 0 0;padding:0}.cvf-cta-act{display:flex;align-items:center;gap:22px;flex-wrap:wrap}.cvf-cta-act .ph{color:#fff!important;font-size:22px;font-weight:800}.cvf-cta-act .b{background:#d9a13a;color:#161834!important;font-weight:700;font-size:16px;padding:14px 26px;border-radius:4px}.cvf-main{max-width:1240px;margin:0 auto;padding:56px 40px 40px;display:grid;grid-template-columns:1.4fr 1fr 1fr 1.2fr;gap:40px}.cvf-logo img{display:block;width:210px;max-width:100%;height:auto;margin-bottom:16px}.cvf-tag{color:#fff;font-weight:700;font-size:16px;line-height:1.5em;margin:0 0 6px;padding:0}.cvf .cvf-desc{font-size:14px;line-height:1.6em;margin:0;padding:0 0 20px}.cvf-soc{display:flex;gap:10px}.cvf-soc a{width:38px;height:38px;border-radius:50%;background:rgba(255,255,255,.08);display:flex;align-items:center;justify-content:center;transition:background .2s}.cvf-soc a:hover{background:#d9a13a}.cvf-soc svg{width:17px;height:17px;fill:#fff}.cvf h4{color:#fff;font-size:14px;font-weight:800;letter-spacing:.14em;margin:0 0 16px;padding:0 0 10px;border-bottom:2px solid #d9a13a;display:inline-block}.cvf ul{list-style:none!important;margin:0!important;padding:0!important}.cvf li{list-style:none!important;margin:0 0 10px!important;padding:0!important;font-size:15px;line-height:1.4em}.cvf li a{color:#c9cbe0!important;transition:color .2s}.cvf li a:hover{color:#d9a13a!important}.cvf-contact li{display:flex;gap:10px}.cvf-contact b{color:#fff;font-weight:700;min-width:62px}.cvf-contact .big{color:#fff!important;font-weight:800;font-size:18px}.cvf-bot{border-top:1px solid rgba(255,255,255,.1)}.cvf-bot-in{max-width:1240px;margin:0 auto;padding:18px 40px;display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap;font-size:13px;color:#8f92ad}.cvf-bot-in a{color:#8f92ad!important;margin-left:18px}.cvf-bot-in a:hover{color:#d9a13a!important}@media (max-width:980px){.cvf-main{grid-template-columns:1fr 1fr;gap:32px;padding:44px 28px 30px}.cvf-cta-in{padding:30px 28px}.cvf-bot-in{padding:16px 28px}}@media (max-width:767px){.cvf-cta-in{flex-direction:column;align-items:stretch;text-align:center;padding:28px 20px}.cvf-cta h3{font-size:22px}.cvf-cta-act{flex-direction:column;gap:12px}.cvf-cta-act .b{text-align:center}.cvf-main{grid-template-columns:1fr 1fr;gap:26px 18px;padding:34px 20px 24px}.cvf-brand{grid-column:1/-1}.cvf-contact-col{grid-column:1/-1}.cvf li{font-size:14px}.cvf-bot-in{flex-direction:column;align-items:center;text-align:center;padding:16px 20px}.cvf-bot-in a{margin:0 8px}}</style><div class="cvf"><div class="cvf-cta"><div class="cvf-cta-in"><div><h3>Ready to start your next project?</h3><p>Talk with a ClearVista specialist about your space, goals and timeline.</p></div><div class="cvf-cta-act"><a class="ph" href="tel:801-486-5757">(801) 486-5757</a><a class="b" href="/contact-us/">Talk to an Expert</a></div></div></div><div class="cvf-main"><div class="cvf-brand"><a class="cvf-logo" href="/"><img src="https://www.goclearvista.com/wp-content/uploads/2025/06/ClearVista-footer.png" alt="ClearVista" width="321" height="128"></a><p class="cvf-tag">Clarity in Technology. Vision for Tomorrow.</p><p class="cvf-desc">Audio-visual, security and communication systems for enterprise, education and government.</p><div class="cvf-soc"><a href="https://www.linkedin.com/company/clearvista/" target="_blank" rel="noopener" aria-label="LinkedIn"><svg viewBox="0 0 24 24"><path d="M4.98 3.5a2.5 2.5 0 1 1 0 5 2.5 2.5 0 0 1 0-5zM3 9h4v12H3zM9 9h3.8v1.7h.1c.5-1 1.8-2 3.8-2 4 0 4.8 2.6 4.8 6V21h-4v-5.5c0-1.3 0-3-1.8-3s-2.1 1.4-2.1 2.9V21H9z"/></svg></a><a href="https://www.facebook.com/clearvistaslc/" target="_blank" rel="noopener" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8h3V4h-3c-2.8 0-4 1.7-4 4.3V10H7v4h3v8h4v-8h3l.5-4H14V8.6c0-.4.2-.6.6-.6z"/></svg></a><a href="https://www.instagram.com/goclearvista/" target="_blank" rel="noopener" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M12 7.3A4.7 4.7 0 1 0 12 16.7 4.7 4.7 0 0 0 12 7.3zm0 7.7a3 3 0 1 1 0-6 3 3 0 0 1 0 6zm4.9-7.9a1.1 1.1 0 1 1-2.2 0 1.1 1.1 0 0 1 2.2 0zM12 3.6c2.7 0 3 0 4.1.1 2.7.1 4 1.4 4.1 4.1.1 1.1.1 1.4.1 4.2s0 3-.1 4.1c-.1 2.7-1.4 4-4.1 4.1-1.1.1-1.4.1-4.1.1s-3 0-4.1-.1c-2.7-.1-4-1.4-4.1-4.1C3.7 15 3.6 14.7 3.6 12s0-3 .1-4.1c.1-2.7 1.4-4 4.1-4.1C8.9 3.6 9.3 3.6 12 3.6zM12 2C9.3 2 8.9 2 7.8 2.1 4.2 2.2 2.2 4.2 2.1 7.8 2 8.9 2 9.3 2 12s0 3.1.1 4.2c.1 3.6 2.1 5.6 5.7 5.7 1.1.1 1.5.1 4.2.1s3.1 0 4.2-.1c3.6-.1 5.6-2.1 5.7-5.7.1-1.1.1-1.5.1-4.2s0-3.1-.1-4.2c-.1-3.6-2.1-5.6-5.7-5.7C15.1 2 14.7 2 12 2z"/></svg></a><a href="https://www.youtube.com/@GoClearVista" target="_blank" rel="noopener" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M23 7.2a3 3 0 0 0-2.1-2.1C19 4.6 12 4.6 12 4.6s-7 0-8.9.5A3 3 0 0 0 1 7.2 31 31 0 0 0 .5 12 31 31 0 0 0 1 16.8a3 3 0 0 0 2.1 2.1c1.9.5 8.9.5 8.9.5s7 0 8.9-.5a3 3 0 0 0 2.1-2.1 31 31 0 0 0 .5-4.8 31 31 0 0 0-.5-4.8zM9.8 15V9l5.7 3z"/></svg></a><a href="https://x.com/goclearvista" target="_blank" rel="noopener" aria-label="X"><svg viewBox="0 0 24 24"><path d="M17.8 3H21l-7 8 8.2 10H16l-5-6.2L5.3 21H2l7.5-8.6L1.6 3H8l4.5 5.7zm-1.1 16.2h1.8L7.4 4.7H5.5z"/></svg></a></div></div><div><h4>SOLUTIONS</h4><ul><li><a href="/visual-displays/">Visual Displays</a></li><li><a href="/digital-signage-2/">Digital Signage</a></li><li><a href="/web-conferencing/">Video Conferencing</a></li><li><a href="/classroom-technologies/">Classroom Technologies</a></li><li><a href="/council-room/">Council Rooms</a></li><li><a href="/command-control-systems/">Command &amp; Control</a></li></ul></div><div><h4>COMPANY</h4><ul><li><a href="/about-us-2/">About Us</a></li><li><a href="/services/">Services</a></li><li><a href="/state-of-utah-contract/">State of Utah Contract</a></li><li><a href="/certifications-trainings/">Certifications</a></li><li><a href="/our-team/">Our Team</a></li><li><a href="/careers/">Careers</a></li><li><a href="/product-line-card/">Product Line Card</a></li></ul></div><div class="cvf-contact-col"><h4>CONTACT</h4><ul class="cvf-contact"><li><a class="big" href="tel:801-486-5757">(801) 486-5757</a></li><li><span>170 East 2100 South<br>Salt Lake City, Utah 84115</span></li><li><span>Office Hours: Mon–Fri, 9am–5pm MST<br><a href="/business-hours/">Holiday Hours</a></span></li><li><a href="/service-request/">Submit a Service Request →</a></li><li><a href="/contact-us/">Contact Us →</a></li></ul></div></div><div class="cvf-bot"><div class="cvf-bot-in"><span>© 2026 ClearVista. All rights reserved. ClearVista is a DBA of TV Specialists, Inc.</span><span><a href="/privacy-policy/">Privacy Policy</a><a href="/terms-conditions/">Terms &amp; Conditions</a><a href="/old-pages/">Archived Pages</a></span></div></div></div>
+```
+
+## 3b. Full-width CSS (Theme Options)
+If the footer shows as a boxed column with white bands (row width/padding not set), add this to
+**Extra → Theme Options → General → Custom CSS**:
+
+```css
+/* New footer: full width, no gaps */
+.et-l--footer .et_pb_section { padding: 0 !important; }
+.et-l--footer .et_pb_row:has(.cvf) { width: 100% !important; max-width: 100% !important; padding: 0 !important; margin: 0 !important; }
+.et-l--footer .et_pb_code:has(.cvf) { margin: 0 !important; }
+```
+
+## 4. Save
+**Save** the footer template (top-right), then **Save Changes** on Theme Builder and
+**clear the WP Rocket cache**.
+
+## Checks afterwards
+- Navy footer with gold accents on every page; nothing overflows on phone.
+- "Talk to an Expert" goes to /contact-us/; phone numbers tap-to-dial.
+- Social icons open LinkedIn, Facebook, Instagram, YouTube and X in a new tab.
+- Bottom bar shows © 2026, Privacy Policy, Terms & Conditions, Archived Pages.
+
+## What changed vs. the old footer
+- "Store hours" → "Office Hours: Mon–Fri, 9am–5pm MST" (Holiday Hours link kept).
+- "ClearVista & TVSPro are both DBAs of TV Specialists, Inc." → "ClearVista is a DBA of TV Specialists, Inc."
+- BBB seal and Google-review badge removed (small-business look).
+- Added Solutions column, State of Utah Contract, Certifications, Services and Service Request links.
+- Copyright year updated from 2025 to 2026 (edit the text each January).
