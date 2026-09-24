@@ -5,6 +5,7 @@ U='https://www.goclearvista.com/wp-content/uploads/'
 tpl=open('notes/visual-displays-code.html').read()
 css=tpl[:tpl.index('</style>')+8]
 s=json.load(open(sys.argv[1]))
+css=css.replace('</style>','@media (max-width:980px){.cvs-gal a:nth-child(3):last-child{grid-column:1/-1}.cvs-gal a:nth-child(3):last-child img{aspect-ratio:2/1}}</style>')
 css=re.sub(r'url\(https://www\.goclearvista\.com/wp-content/uploads/[^)]*\)','url('+U+s['hero_img']+')',css,1)
 e=lambda t:t.replace('&','&amp;')
 out=[css]
