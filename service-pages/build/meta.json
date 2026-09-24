@@ -1,0 +1,27 @@
+{
+ "design-engineering": {
+  "title": "Design & Engineering",
+  "excerpt": "AV system design and engineering from ClearVista: needs assessments, site surveys, system design, drawings and documentation from AVIXA CTS-certified designers.",
+  "bytes": 19801
+ },
+ "system-installation": {
+  "title": "System Installation",
+  "excerpt": "Certified AV system installation from ClearVista: in-house project management, installation and commissioning for single rooms, campuses and 24/7 operations centers across Utah and the Intermountain West.",
+  "bytes": 20279
+ },
+ "custom-program-integration": {
+  "title": "Custom Programming & Integration",
+  "excerpt": "In-house AV control programming and system integration from ClearVista: Q-SYS, Extron, Kramer and Control4 programming, Dante networked audio, conferencing and custom user interfaces.",
+  "bytes": 19489
+ },
+ "service-level-agreements": {
+  "title": "Service Level Agreements",
+  "excerpt": "ClearVista Service Level Agreements go beyond manufacturer warranties with extended support and labor coverage, faster response times, scheduled maintenance and proactive monitoring.",
+  "bytes": 26440
+ },
+ "experience-center": {
+  "title": "Experience Center",
+  "excerpt": "Book a guided visit to the ClearVista Experience Center in Salt Lake City for hands-on demonstrations and side-by-side comparisons of displays, conferencing, audio, control and AV-over-IP systems.",
+  "bytes": 21174
+ }
+}
