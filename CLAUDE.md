@@ -188,6 +188,18 @@ The full discussion is in `docs/conversation-log.md`.
 - **FAQs:** rebuilt as `<details>`. "TVS Pro order products" now reads "ClearVista". The used-equipment phone number was changed from "1-800-486-5757" to (801) 486-5757; **ask the owner whether the 800 number was real.**
 - **Visit or contact:** phone, address, hours, showroom link, Google map, contact form (`ref=About Us`).
 
+### Blog page (ID 184148 at /blog/; backup `page-184148_2026-09-23T221036`; original `..._2026-03-31...`)
+- **Hero:** "Inside Our Latest Projects" over the UDOT operations center photo.
+- **Six featured project cards:** UDOT TOC, Delta Center/Vivint (Extron story), USBE, SUU Student Center, BYU-Idaho Advising, Henkel.
+- **Category links:** Home Theater is excluded.
+- **Divi blog grid:** 12 posts per page with pagination (the old page listed 140 posts, 52,000px on phone). `include_categories` = every category except Home Theater (57), Home Theater & Automation (571) and All posts (537).
+- **Known gaps:**
+  - Posts also tagged with non-consumer categories still appear: Luxury Whole Home AV 252612, CE Pro list 252148, Pine Valley Home Theater 252074.
+  - The newest post, "Protecting People, Property…" (May 2025), is only in "All posts", so it doesn't show.
+  - The USBE post 252485 is mis-tagged with Home Theater categories.
+  - These need the owner's decision on recategorising or unpublishing posts.
+- **The header "Blog" menu item points at the theme's category archive** (/blog/category/all-posts/), which the connector can't edit. **Recommend the owner changes it to /blog/** in Appearance → Menus.
+
 ## Waiting on the owner
 **Photos:**
 - the About Us tile on the home page
@@ -201,7 +213,7 @@ The full discussion is in `docs/conversation-log.md`.
 **Owner's plan:** once every change is done, the owner reviews the whole site and sends specific change requests.
 
 ## Next up
-1. Blog.
-2. The "conversion pages" (tier 3).
+1. Owner reviews the whole site and sends change requests.
+2. The "conversion pages" (tier 3): confirm which pages. Likely the solution and service detail pages (visual-displays, design-engineering and so on), plus contact-us and service-request.
 
 Reuse the `cvs-` components so every landing page matches.
