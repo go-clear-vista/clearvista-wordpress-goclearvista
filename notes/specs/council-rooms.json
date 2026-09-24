@@ -1,0 +1,15 @@
+{"hero_img":"2022/06/Council-Room-Feature-2.jpg","crumb":"Council Rooms","eyebrow":"COUNCIL ROOMS","h1a":"Council Chambers Built","h1b":"for Open, Accessible Meetings",
+"sub":"Video, audio, broadcast and recording systems for public meetings. One partner designs, installs and supports it all.",
+"intro_h":"Public Meetings, Made Easy and Efficient",
+"intro_p":"Today's council meetings need to do more than ever. Attendees want to watch remotely, members may need to participate from another location, and meetings often must be recorded for compliance and archival purposes. We engineer one system that handles it all.",
+"chips":["City Council Chambers","County Commissions","Public Hearing Rooms","Board Meeting Rooms","Government Agencies","Hybrid Public Meetings"],
+"tech_h":"Chamber Solutions","tech_p":"Every chamber is different. We configure video, audio, broadcast and control around how your meetings actually run.",
+"cards":[
+{"img":"2022/06/Video-Systems.jpg","alt":"Council chamber dais with member displays","h":"Video Systems","p":"Individual monitors for council members, large displays for attendees, and routing that sends each display exactly the content it needs.","b":["Member and audience displays","Presentations and remote participants","Custom video routing"]},
+{"img":"2022/06/Shure-microphone.jpg","alt":"Council room gooseneck microphone","h":"Audio Systems","p":"Microphones for individuals or groups, with operator mute and leveling controls or fully automated, intelligent mixing.","b":["Operator-controlled or automated","Noise reduction and speech clarity","Audio reinforcement for the room"]},
+{"img":"2022/06/Council-Room-5.jpg","alt":"Council chamber broadcast and control console","h":"Broadcast, Recording & Control","p":"Live broadcasts, recording and archiving for compliance, all run from one simple control interface.","b":["Live streaming for public attendance","Local or cloud recording and archiving","Button panels or touch panel dashboards"]}],
+"partner_p":"One team designs, engineers, installs and supports your chambers, and trains the people who run them. You get one point of contact and one accountable partner.",
+"gal_h":"Recent Council Room Installations","gal_p":"A selection of chambers and meeting rooms installed by our team.",
+"gallery":[["2022/06/Council-Room-1.jpg","Council chamber with dais displays"],["2022/06/Council-Room-3.jpg","Council dais with member monitors and touch panels"],["2022/06/Council-Room-4.jpg","Public meeting chamber"],["2022/06/Council-Room-6.jpg","Council dais with member monitors"],["2022/06/Council-Room-7.jpg","Council chamber during a public meeting"],["2022/06/control-system.jpg","Council room touch panel control system"]],
+"related":[["Video Conferencing","/web-conferencing/"],["Visual Displays","/visual-displays/"],["Command & Control","/command-control-systems/"],["Classroom Technologies","/classroom-technologies/"]],
+"cta_h":"Let's Talk About Your Chambers"}
