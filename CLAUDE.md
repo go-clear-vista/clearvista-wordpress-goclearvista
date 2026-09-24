@@ -39,6 +39,21 @@ Model new or updated pages on the redesigned **Home, Solutions (`/av-solutions/`
 - Uploading media through the connector needs `public-api.wordpress.com` on the environment's network allowlist; otherwise ClearVista uploads in WP Admin → Media and shares the URL.
 - Live screenshots: wait several seconds after load, or CSS background images appear missing.
 
+## Company pages (Our Team, Certifications, Product Line Card, Careers)
+
+Redesign **drafts** created 2026-09-24, awaiting owner approval; live pages unchanged. Record: `docs/company-pages-drafts-2026-09-24.md`.
+
+| Page | Live ID | Draft ID | Form |
+|---|---|---|---|
+| Our Team | 185496 | 254240 | ContactaPro `ref=Our Team` |
+| Certifications & Trainings | 251672 | 254243 | ContactaPro `ref=Certifications and Trainings` |
+| Product Line Card | 185025 | 254246 | ContactaPro `ref=Product Line Card` |
+| Careers | 184914 | 254245 | JobInterestForm `ref=Careers` |
+
+- Build: `python3 company-pages/gen_company.py` (reuses `service-pages/gen.py` components; adds `cvc-` team cards, cert groups, logo wall, job cards). Brands live in `company-pages/brands.json`.
+- Preview: `node scripts/mockpage.js <slug> company-pages/build/<slug>-code.html <outdir>`.
+- Old hero photos `2023/01/TVS-Pro-2022-21-NEW.jpg` and `2023/02/Certifications-and-Training.jpg` show TVS PRO branding; don't reuse them. Most 2022 headshots have a small TVS PRO shirt logo (owner to replace).
+
 ## Solution pages (tier 3 conversion pages)
 
 The seven solution detail pages under `/av-solutions/` were redesigned and went live on 2026-09-24. Full record: `docs/solution-pages-change-log-2026-09-24.md`. Status tracker: `notes/conversion-pages.md`.
