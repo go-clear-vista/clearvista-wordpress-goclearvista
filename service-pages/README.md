@@ -2,13 +2,13 @@
 
 Redesigned conversion pages that sit under **Services** on goclearvista.com, built in the same style as the live Home, Solutions, Services and State of Utah Contract pages.
 
-| Page | Live page (ID) | Draft |
+| Page | Live page (ID) | Status |
 | --- | --- | --- |
-| Design & Engineering | `/design-engineering/` (250158) | **Live** (Sept 24) |
-| System Installation | `/system-installation/` (250199) | 254198 |
-| Custom Programming & Integration | `/custom-program-integration/` (250190) | 254199 |
-| Service Level Agreements | `/service-level-agreements/` (185332) | 254200 |
-| Experience Center | `/walk-in-showroom/` → `/experience-center/` (250210) | 254202 |
+| Design & Engineering | `/design-engineering/` (250158) | Live |
+| System Installation | `/system-installation/` (250199) | Live |
+| Custom Programming & Integration | `/custom-program-integration/` (250190) | Live |
+| Service Level Agreements | `/service-level-agreements/` (185332) | Live, five tiers from ClearVista_SLA_9-24-2026.pdf |
+| Experience Center | `/experience-center/` (250210) | Live |
 
 ## How it works
 
@@ -24,5 +24,6 @@ To publish a page, paste the `.divi.txt` content into the page (or send it throu
 ## Notes
 
 - Never use `[` or `]` in page copy; Divi treats them as shortcodes. `gen.py` asserts on this.
-- Internal links point to `/experience-center/` (the live Design & Engineering page temporarily links to `/walk-in-showroom/` until the slug changes). Change the Experience Center slug and add a 301 from `/walk-in-showroom/` before or with go-live.
+- `/walk-in-showroom/` is currently a temporary forward page (ID 254204, meta refresh). Replace it with a 301 in Tools → Redirection, then trash that page.
+- SLA tier data lives in `TIER_ROWS` in `gen.py`; update it (and `SLA_PDF`) when the plan PDF changes.
 - `previews/` contains local screenshots rendered against the live theme CSS.

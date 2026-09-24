@@ -115,7 +115,7 @@ CSS_BASE = (
 
 CSS_TIERS = (
     ".cvp-tw{overflow-x:auto;-webkit-overflow-scrolling:touch;border-radius:6px;box-shadow:0 10px 30px rgba(41,45,91,.1)}"
-    ".cvp-t{width:100%;min-width:720px;border-collapse:collapse;background:#fff;font-size:15px}"
+    ".cvp-t{width:100%;min-width:820px;border-collapse:collapse;background:#fff;font-size:15px}"
     ".cvp-t th,.cvp-t td{border:1px solid #e3e5ee;padding:12px 14px;text-align:center;color:#3d3f55}"
     ".cvp-t td:first-child,.cvp-t th:first-child{text-align:left;font-weight:600;color:#292d5b}"
     ".cvp-t thead th,.cvp-t thead th:first-child{background:#161834;color:#fff;font-weight:800;font-size:15px;line-height:1.3em;vertical-align:bottom}"
@@ -128,7 +128,7 @@ CSS_TIERS = (
     ".cvp-t tbody td.sec{background:#eef0f6!important;color:#292d5b;font-size:12px;font-weight:800;letter-spacing:.14em;text-align:left}"
     ".cvp-tnote{color:#595959;font-size:13px;line-height:1.6em;margin:14px 0 0;padding:0}"
     ".cvp-swipe{display:none;color:#b07d1f;font-weight:700;font-size:13px;letter-spacing:.04em;margin:0 0 10px;padding:0}"
-    "@media (max-width:767px){.cvp-swipe{display:block}.cvp-t{font-size:13px;min-width:600px}.cvp-t th,.cvp-t td{padding:10px 8px}"
+    "@media (max-width:767px){.cvp-swipe{display:block}.cvp-t{font-size:13px;min-width:680px}.cvp-t th,.cvp-t td{padding:10px 8px}"
     ".cvp-t td:first-child,.cvp-t th:first-child{position:sticky;left:0;z-index:1;width:150px;min-width:150px;background:#fff;box-shadow:2px 0 4px rgba(41,45,91,.08)}"
     ".cvp-t thead th:first-child{background:#161834}.cvp-t tbody tr:nth-child(even) td:first-child{background:#fafbfd}.cvp-t tbody td.sec{position:static}}"
 )
@@ -407,83 +407,95 @@ PAGES["custom-program-integration"] = dict(
 Y = '<span class="cvp-y" aria-label="Included"></span>'
 N = '<span class="cvp-n" aria-label="Not included">&#8212;</span>'
 TIER_ROWS = [
+    # Source: ClearVista_SLA_9-24-2026.pdf. Columns: Standard, Extended, Silver, Gold, Platinum.
     ("sec", "COVERAGE"),
-    ("90-day support &amp; labor coverage", 1, 1, 1, 1),
-    ("180-day support &amp; labor coverage", 0, 1, 1, 1),
-    ("1-year support &amp; labor coverage", 0, 0, 1, 1),
+    ("90-day labor support", 1, 1, 1, 1, 1),
+    ("180-day extended support &amp; labor coverage", 0, 1, 1, 1, 1),
+    ("1-year support &amp; labor coverage", 0, 0, 1, 1, 1),
     ("sec", "SUPPORT &amp; RESPONSE"),
-    ("Standard phone support (business hours)", 1, 1, 1, 1),
-    ("Extended phone support (after hours)", 0, 0, 1, 1),
-    ("Reactive remote support*", 0, 0, 1, 1),
-    ("Reactive service visits*", 0, 0, 1, 1),
-    ("2 business day response time*", 0, 0, 1, 0),
-    ("1 business day response time with priority scheduling", 0, 0, 0, 1),
+    ("Standard phone support", 1, 1, 1, 1, 1),
+    ("Discounted emergency visits", 0, 1, 1, 1, 1),
+    ("1 business day response time*", 0, 0, 0, 0, 1),
+    ("sec", "MAINTENANCE &amp; CARE"),
+    ("Cable &amp; connection inspection", 0, 1, 1, 1, 1),
+    ("Basic cleaning &amp; recalibration", 0, 1, 1, 1, 1),
+    ("Firmware updates", 0, 1, 1, 1, 1),
+    ("Reactive maintenance visits*", 0, 1, 1, 1, 1),
+    ("Proactive maintenance visits*", 0, 0, 0, 1, 1),
+    ("Cable management", 0, 0, 0, 1, 1),
     ("sec", "HARDWARE"),
-    ("Discounted replacement hardware", 0, 0, 1, 1),
-    ("Free interconnect replacements", 0, 0, 0, 1),
-    ("Supplemental advanced product replacement", 0, 0, 0, 1),
-    ("sec", "PROACTIVE CARE"),
-    ("Two semi-annual maintenance visits", 0, 0, 0, 1),
-    ("Documented service checklists (ANSI/INFOCOMM 10-2013)", 0, 0, 0, 1),
-    ("Firmware updates", 0, 0, 0, 1),
-    ("Re-management of exposed cabling", 0, 0, 0, 1),
-    ("Proactive monitoring &amp; remote repair*", 0, 0, 0, 1),
+    ("Discounted replacement hardware", 0, 0, 0, 1, 1),
+    ("Free interconnect replacements*", 0, 0, 0, 1, 1),
+    ("VIP / supplemental advanced product replacement*", 0, 0, 0, 0, 1),
 ]
+TIER_COLS = [("Standard Warranty", "INCLUDED FREE"), ("Extended Warranty", "WARRANTY"), ("Silver SLA", "SERVICE LEVEL"),
+             ("Gold SLA", "SERVICE LEVEL"), ("Platinum SLA", "ELITE SUPPORT")]
+GOLD = 3  # highlighted column, matching the PDF
+SLA_PDF = "https://www.goclearvista.com/wp-content/uploads/2026/09/ClearVista_SLA_9-24-2026.pdf"
 
 def tier_table():
-    head = ('<thead><tr><th scope="col">What&#8217;s included</th><th scope="col">Standard Warranty<small>INCLUDED FREE</small></th>'
-            '<th scope="col">Extended Warranty<small>WARRANTY</small></th><th scope="col">Silver SLA<small>SERVICE LEVEL</small></th>'
-            '<th scope="col" class="g">Gold SLA<small>MOST COMPLETE</small></th></tr></thead>')
+    GC = ' class="g"'
+    ths = "".join(f'<th scope="col"{GC if i == GOLD else ""}>{n}<small>{t}</small></th>' for i, (n, t) in enumerate(TIER_COLS))
+    head = f'<thead><tr><th scope="col">What&#8217;s included</th>{ths}</tr></thead>'
+    G = ' class="g"'
     rows = []
     for r in TIER_ROWS:
         if r[0] == "sec":
-            rows.append(f'<tr><td class="sec" colspan="5">{r[1]}</td></tr>')
+            rows.append(f'<tr><td class="sec" colspan="{len(TIER_COLS) + 1}">{r[1]}</td></tr>')
         else:
-            G = ' class="g"'
-            cells = "".join(f'<td{G if i == 3 else ""}>{Y if v else N}</td>' for i, v in enumerate(r[1:]))
+            cells = "".join(f'<td{G if i == GOLD else ""}>{Y if v else N}</td>' for i, v in enumerate(r[1:]))
             rows.append(f"<tr><td>{r[0]}</td>{cells}</tr>")
     return f'<div class="cvp-tw"><table class="cvp-t">{head}<tbody>{"".join(rows)}</tbody></table></div>'
+
+TIER_NOTES = ('*Reactive maintenance visits: up to 2 per year, excludes incompatible hardware. Proactive maintenance visits: up to 4 per year. '
+              '1 business day response: service visits scheduled on the first available business day. Free interconnect replacements: damaged or defective '
+              'cables, accessories, adapters and mounting accessories (manager approval may be required). VIP / supplemental advanced product replacement: '
+              'if hardware fails, a replacement of comparable performance keeps you up and running. Expedited service response is available for premium '
+              'customers when standard scheduling is unavailable.')
+
+def tier_note():
+    dl = (f' <a href="{SLA_PDF}" target="_blank" rel="noopener" style="color:#292d5b;font-weight:700;border-bottom:2px solid #d9a13a">'
+          'Download the plan comparison (PDF)</a>.') if SLA_PDF else ""
+    return f'<p class="cvp-tnote">{TIER_NOTES}{dl}</p>'
 
 PAGES["service-level-agreements"] = dict(
     label="Service Level Agreements", hero=f"{UP}/2023/03/UDOT-rack-3-scaled.jpg", css=CSS_TIERS,
     form_ref="SLA%20Page",
     title="Service Level Agreements",
-    excerpt="ClearVista Service Level Agreements go beyond manufacturer warranties with extended support and labor coverage, faster response times, scheduled maintenance and proactive monitoring.",
+    excerpt="ClearVista Service Level Agreements go beyond the standard warranty with extended support and labor coverage, proactive maintenance, hardware protection and Platinum one business day response.",
     sections=[
         hero("SERVICE LEVEL AGREEMENTS", "Keep Critical Systems Running",
-             "Support plans that go beyond the manufacturer warranty, with faster response, scheduled maintenance and proactive monitoring.",
+             "From standard warranty to Platinum support, the right level of protection and proactive care for your AV investment.",
              "Request SLA Pricing", "Compare Plans", "#cvp-tiers"),
-        stats([("1 Day", "Response time with Gold"), ("2 Visits", "Semi-annual maintenance each year"),
-               ("Proactive", "Monitoring and remote repair")]),
+        stats([("5 Tiers", "From standard warranty to Platinum"), ("Up to 4", "Proactive maintenance visits a year"),
+               ("1 Day", "Response time with Platinum")]),
         intro("MORE THAN PRODUCT AND INSTALLATION", "Support That Protects Your Investment", [
-            "Your systems only deliver value when they work. ClearVista offers levels of service beyond traditional manufacturer warranties, from extended support and labor coverage to proactive monitoring that catches issues before your users do.",
-            "Every system we install includes our standard warranty support. When uptime matters, a Silver or Gold Service Level Agreement adds faster response times, discounted hardware, maintenance visits and remote support from the team that knows your system best."]),
-        sec(f'<p class="cvs-eye">COMPARE PLANS</p><h2>Service Level Agreement Tiers</h2><p class="cvu-lead">Choose the coverage that matches how critical your systems are. Every tier builds on the one before it.</p><p class="cvp-swipe">Swipe to compare plans &#8594;</p>{tier_table()}'
-            '<p class="cvp-tnote">*Remote support and proactive monitoring require hardware with OvrC capabilities. Reactive service visits cover up to two separate issues per month. Service and maintenance scheduling is subject to availability. '
-            'Prefer a printable version? <a href="https://www.goclearvista.com/wp-content/uploads/2021/11/TVS-Pro-Service-Level-Agreements-2021.pdf" target="_blank" rel="noopener" style="color:#292d5b;font-weight:700;border-bottom:2px solid #d9a13a">Download the plan details (PDF)</a>.</p>',
+            "Your systems only deliver value when they work. ClearVista offers levels of service beyond the standard warranty, from extended support and labor coverage to proactive maintenance that catches issues before your users do.",
+            "Every system we install includes our standard warranty. When uptime matters, an Extended Warranty or a Silver, Gold or Platinum Service Level Agreement adds longer coverage, maintenance visits, hardware protection and faster response from the team that knows your system best."]),
+        sec(f'<p class="cvs-eye">COMPARE PLANS</p><h2>Service Level Agreement Tiers</h2><p class="cvu-lead">Choose the coverage that matches how critical your systems are. Every tier builds on the one before it.</p><p class="cvp-swipe">Swipe to compare plans &#8594;</p>{tier_table()}{tier_note()}',
             alt=True, id_="cvp-tiers"),
         cards("KEY BENEFITS", "What an SLA Adds", None, [
-            ("RESPONSE", "Shorter Response Times", "Silver guarantees a response within two business days. Gold responds within one business day, with priority scheduling."),
-            ("MAINTENANCE", "Scheduled Maintenance Visits", "Gold includes two semi-annual visits with cable management, a documented service checklist and firmware updates."),
-            ("MONITORING", "Reactive or Proactive Support", "Remote support when hardware fails, or proactive monitoring with Gold so you don&#8217;t have to worry about outages."),
-            ("HARDWARE", "Discounted Replacement Hardware", "When equipment is out of warranty, replacement products are discounted. Gold adds supplemental replacements to keep you running.")],
+            ("COVERAGE", "Longer Support &amp; Labor Coverage", "Go from 90 days of labor support to 180 days with the Extended Warranty, or a full year with Silver, Gold and Platinum."),
+            ("MAINTENANCE", "Proactive Maintenance", "Gold and Platinum include up to four proactive maintenance visits a year, plus cable management, inspections, cleaning and firmware updates."),
+            ("HARDWARE", "Hardware Protection", "Gold adds discounted replacement hardware and free interconnect replacements. Platinum adds VIP supplemental product replacement."),
+            ("RESPONSE", "Faster Response", "Platinum service visits are scheduled on the first available business day, and every plan above the standard warranty includes discounted emergency visits.")],
             cols=4, alt=False),
         steps("HOW IT WORKS", "Getting Started Is Simple", None, [
             ("Choose Your Coverage", "We review your systems and how critical they are, then recommend the right tier."),
-            ("Onboard Your System", "We document your equipment and set up remote support and monitoring where supported."),
-            ("Maintain &amp; Monitor", "Scheduled visits, firmware updates and monitoring keep small issues from becoming outages."),
-            ("Respond Fast", "When something needs attention, you get a guaranteed response time from a team that already knows your system.")],
+            ("Onboard Your System", "We document your equipment and schedule your first maintenance visit."),
+            ("Maintain", "Inspections, cleaning, recalibration and firmware updates keep small issues from becoming outages."),
+            ("Respond", "When something needs attention, you&#8217;re working with a team that already knows your system.")],
             alt=True),
         two_col(
             '<p class="cvs-eye">WHO IT&#8217;S FOR</p><h2 class="cvu-h">Built for Systems That Can&#8217;t Go Down</h2><p class="cvu-p">An SLA makes sense wherever downtime interrupts learning, operations, public meetings or revenue.</p>',
             chips(["Command &amp; Operations Centers", "Council &amp; Board Rooms", "Classrooms &amp; Lecture Halls", "Conference &amp; Huddle Rooms",
                    "Digital Signage Networks", "Production Studios", "Stadiums &amp; Venues", "Public Safety Facilities"])),
         faq([
-            ("What does the standard warranty include?", "Every system includes 90 days of support and labor coverage plus standard phone support during business hours at no additional cost."),
-            ("What&#8217;s the difference between Silver and Gold?", "Silver adds one year of support and labor coverage, extended phone support, remote support, service visits, discounted hardware and a two business day response time. Gold adds a one business day response, two semi-annual maintenance visits, firmware updates, free interconnect replacements, proactive monitoring and supplemental product replacement."),
+            ("What does the standard warranty include?", "Every system includes 90 days of labor support plus standard phone support at no additional cost."),
+            ("How do the plans differ?", "The Extended Warranty adds 180-day support and labor coverage, cable and connection inspections, cleaning and recalibration, firmware updates, reactive maintenance visits and discounted emergency visits. Silver extends coverage to one year. Gold adds proactive maintenance visits, cable management, discounted replacement hardware and free interconnect replacements. Platinum adds one business day response and VIP supplemental product replacement."),
+            ("How many maintenance visits are included?", "The Extended Warranty and every SLA include up to two reactive maintenance visits a year. Gold and Platinum add up to four proactive maintenance visits a year."),
             ("Can we get an SLA for equipment we didn&#8217;t buy from ClearVista?", "Our Service Level Agreements cover products and systems purchased from ClearVista, so we can stand behind the design, installation and equipment."),
-            ("Do you follow an industry standard during maintenance visits?", "Yes. Each Gold maintenance visit includes a complete performance and verification checklist based on the ANSI/INFOCOMM 10-2013 standard."),
-            ("How do I request service?", 'Call <a href="tel:801-486-5757">(801) 486-5757</a> during business hours or <a href="/service-request/">submit a service request</a> online.')],
+            ("How do I request service?", 'Call <a href="tel:801-486-5757">(801) 486-5757</a>, email <a href="mailto:scheduling@goclearvista.com">scheduling@goclearvista.com</a> or <a href="/service-request/">submit a service request</a> online.')],
             alt=False),
         related("sla"),
         cta("PROTECT YOUR SYSTEMS", "Request SLA Pricing", "Tell us about your systems. A ClearVista specialist will recommend the right coverage."),
