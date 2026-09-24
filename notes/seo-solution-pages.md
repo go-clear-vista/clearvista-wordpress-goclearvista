@@ -13,3 +13,6 @@ Titles ≤60 chars, descriptions ≤160. Before: titles were "<Page> - ClearVist
 | Command & Control | Command & Control Rooms & Video Walls \| ClearVista | Video walls, distribution and unified control for emergency, network, traffic and security operations centers. Built for 24/7 mission-critical reliability. |
 
 Share-image issue: Video Conferencing og:image = 2022/05/Web-Conferencing-Feature-2.jpg shows TVS PRO on both screens → replace (suggest 2022/05/Simple-Conference-Room-2.jpg).
+
+Verified live 2026-09-24: 5 of 6 correct; VC share image fixed (Simple-Conference-Room-2).
+ISSUE: Council Room description + OG description were pasted with the Classroom text; owner to re-paste the Council description.
