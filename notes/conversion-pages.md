@@ -15,11 +15,12 @@ Owner direction (2026-09-24):
 | Page | ID | Backup (original) | Status |
 |---|---|---|---|
 | Visual Displays | 189477 | page-189477_2026-03-12T180848 | LIVE 2026-09-24 09:52 (page-189477_2026-09-24T095248) |
-| Digital Signage | 247125 | page-247125_2025-07-02T144900 | next |
+| Digital Signage | 247125 | page-247125_2025-07-02T144900 | preview sent 2026-09-24, awaiting approval |
 | Video Conferencing | 247136 | page-247136_2026-04-13T102323 | todo |
-| Classroom Technologies | 189670 | page-189670_2025-07-02T145959 | todo (old copy names MA516 and "T.V.S. Pro": drop both) |
-| Council Rooms | 247146 | page-247146_2025-06-12T130416 | todo ("30 years" claim: check with owner) |
+| Classroom Technologies | 189670 | page-189670_2025-07-02T145959 | todo (owner OK: drop MA516 and "T.V.S. Pro") |
+| Council Rooms | 247146 | page-247146_2025-06-12T130416 | todo (REMOVE "well over 30 years": undersells vs AVI-SPL/Ford AV; owner rule: keep only claims that differentiate) |
 | Command & Control | 186604 | page-186604_2026-04-13T100703 | todo |
 
 Other: duplicate home page 253376 set to draft 2026-09-24 (backup page-253376_2026-09-24_drafted).
 Preview script: `node scripts/mockvd.js` · live check: `node scripts/livevd.js`.
+Build: `python3 scripts/build_solution.py notes/specs/<page>.json notes/<page>-code.html` then `node scripts/mockpage.js <slug> notes/<page>-code.html <outdir>`.
