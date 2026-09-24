@@ -19,3 +19,4 @@ Verified live 2026-09-24: 5 of 6 correct; VC share image fixed (Simple-Conferenc
 Council Room description fixed and verified 2026-09-24. All 6 pages correct.
 
 Physical Security added 2026-09-24 (page went live 14:08). Share image: currently featured 247957 (C&C image) → set Open Graph image to 2026/04/Timeline-1_01_00_27_24.jpg.
+Physical Security Squirrly verified live 2026-09-24 (title, description, OG image Timeline-1_01_00_27_24).
