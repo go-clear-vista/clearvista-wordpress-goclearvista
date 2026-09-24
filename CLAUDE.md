@@ -38,3 +38,48 @@ Model new or updated pages on the redesigned **Home, Solutions (`/av-solutions/`
 
 - Uploading media through the connector needs `public-api.wordpress.com` on the environment's network allowlist; otherwise ClearVista uploads in WP Admin → Media and shares the URL.
 - Live screenshots: wait several seconds after load, or CSS background images appear missing.
+
+## Solution pages (tier 3 conversion pages)
+
+The seven solution detail pages under `/av-solutions/` were redesigned and went live on 2026-09-24. Full record: `docs/solution-pages-change-log-2026-09-24.md`. Status tracker: `notes/conversion-pages.md`.
+
+| Page | ID | URL | Form `ref` |
+|---|---|---|---|
+| Command & Control | 186604 | /command-control-systems/ | Command & Control |
+| Physical Security | 254056 | /physical-security/ | Physical Security |
+| Video Conferencing | 247136 | /web-conferencing/ | Video Conferencing |
+| Classroom Technologies | 189670 | /classroom-technologies/ | Classroom Technologies |
+| Council Rooms | 247146 | /council-room/ | Council Rooms |
+| Digital Signage | 247125 | /digital-signage-2/ | Digital Signage |
+| Visual Displays | 189477 | /visual-displays/ | Visual Displays |
+
+This is also the order of the header Solutions menu, the Solutions landing page cards (183940) and the footer Solutions column. Keep all four in step. Home Theater is not in any of them.
+
+**Owner rules for these pages**
+- **"One partner" is the key message** on every page (hero sub line, "One Partner. Every Stage." band, SEO descriptions).
+- Keep a claim only if it sets ClearVista apart; drop any that make ClearVista look smaller than AVI-SPL, Ford AV or CTI (e.g. "30 years" was removed).
+- No TVS / T.V.S. Pro branding in copy or photos. Photos showing TVS PRO on screens or signs are excluded.
+- Never name state contracts (e.g. MA516) or give a contract count. Link to `/state-of-utah-contract/` only.
+- The Classroom diagrams are not ClearVista's work. Never caption them "from our engineers" or similar.
+- Visual Displays order: Direct View LED, then Large Format Displays & Video Walls, then Projection. No size or resolution limits ("any size, any resolution").
+
+**How they're built**
+- Spec per page: `notes/specs/<page>.json` (Visual Displays is hand-built in `notes/visual-displays-code.html`, which also supplies the shared CSS).
+- Build: `python3 scripts/build_solution.py notes/specs/<page>.json notes/<page>-code.html` (output must contain no `[` or `]`; empty `gallery` skips the gallery).
+- Preview on the live theme: `node scripts/mockpage.js <slug> notes/<page>-code.html <outdir>`.
+- Wrap for Divi: `python3 scripts/wrap_divi.py notes/<page>-code.html "<Admin Label>" "<ref>" <out.txt>` (use "and", not "&", in the label). Produces the Code section plus a separate Zoho ContactaPro form section with **no negative margin** (the old -48px margin hid the CTA phone link).
+- Save with `pages.update` (full content) after re-checking `modified`; confirm the saved content equals the local file; back up to `page-backups/page-<id>_<modified>.divi.txt`.
+- Live check: `node scripts/livepage.js <slug> <outdir>` (1440/1280/1024/820/390px, overflow, all links, form ref).
+- Phone H1: put a space before `<br>`; `.cvs-hero h1 br` is hidden on phones.
+
+**SEO:** Squirrly titles and descriptions for all seven pages are in `notes/seo-solution-pages.md`, all verified live. The owner enters them in Squirrly → Bulk SEO → Edit Snippet; Claude verifies with `curl` and checks `og:image`.
+
+**Footer:** current code in `notes/footer-code.html`, one-line paste version `notes/footer-code-paste.txt`, steps `notes/footer-update-steps.md`. Verified live 2026-09-24.
+
+**Open items (waiting on the owner)**
+1. Newer photos for Visual Displays (gallery), Video Conferencing, Command & Control and the Digital Signage hero.
+2. Classroom share image is a manufacturer render; replace it.
+3. Physical Security `og:image:width` reads 500 with no height (real size 1920×1080); re-selecting the image in Squirrly's Open Graph tab should fix it.
+4. Hide or unpublish the Home Theater page.
+5. The "One Partner. Every Stage." steps run Design, Integration, Installation, Support (project order, like the homepage strip), not the Services menu order. Ask whether to keep it.
+6. The older memory branch `claude/zealous-keller-b29qex` (home and landing page history, conversation log) was never merged into main.
