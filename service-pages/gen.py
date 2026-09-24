@@ -542,7 +542,7 @@ PAGES["experience-center"] = dict(
             ("Can you demonstrate a specific product?", "Tell us what you&#8217;re considering when you book. We&#8217;ll let you know what&#8217;s available to see and set up comparable technology where we can."),
             ("What if we can&#8217;t visit Salt Lake City?", 'Our <a href="/face-to-face-sales/">outside sales team</a> regularly visits organizations across Utah, Idaho, Nevada, Wyoming, Colorado and Montana to assess needs on site.'),
             ("What happens after the visit?", 'We&#8217;ll follow up with recommendations and next steps, from a <a href="/design-engineering/">design consultation</a> to a detailed proposal.')],
-            alt=True),
+            alt=False),
         related("exp"),
         cta("BOOK A GUIDED VISIT", "See It for Yourself", "Tell us a little about your project and when you&#8217;d like to visit. A ClearVista specialist will confirm your appointment."),
     ])
