@@ -15,4 +15,4 @@ Titles ≤60 chars, descriptions ≤160. Before: titles were "<Page> - ClearVist
 Share-image issue: Video Conferencing og:image = 2022/05/Web-Conferencing-Feature-2.jpg shows TVS PRO on both screens → replace (suggest 2022/05/Simple-Conference-Room-2.jpg).
 
 Verified live 2026-09-24: 5 of 6 correct; VC share image fixed (Simple-Conference-Room-2).
-ISSUE: Council Room description + OG description were pasted with the Classroom text; owner to re-paste the Council description.
+Council Room description fixed and verified 2026-09-24. All 6 pages correct.
