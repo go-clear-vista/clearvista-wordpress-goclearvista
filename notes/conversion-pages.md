@@ -17,7 +17,7 @@ Owner direction (2026-09-24):
 | Visual Displays | 189477 | page-189477_2026-03-12T180848 | LIVE 2026-09-24 09:52 (page-189477_2026-09-24T095248) |
 | Digital Signage | 247125 | page-247125_2025-07-02T144900 | LIVE 2026-09-24 10:03 (page-247125_2026-09-24T100344) |
 | Video Conferencing | 247136 | page-247136_2026-04-13T102323 | LIVE 2026-09-24 11:39 (page-247136_2026-09-24T113915; IMG_3078-2 and Web-COnference-Room-2 excluded: TVS PRO branding) |
-| Classroom Technologies | 189670 | page-189670_2025-07-02T145959 | preview sent 2026-09-24 (MA516 + T.V.S. Pro removed; diagrams shown as example designs, owner confirmed diagrams are NOT ClearVista-made: never caption them as ours) |
+| Classroom Technologies | 189670 | page-189670_2025-07-02T145959 | LIVE 2026-09-24 11:57 (page-189670_2026-09-24T115742) (MA516 + T.V.S. Pro removed; diagrams shown as example designs, owner confirmed diagrams are NOT ClearVista-made: never caption them as ours) |
 | Council Rooms | 247146 | page-247146_2025-06-12T130416 | preview sent 2026-09-24 (removed "well over 30 years": undersells vs AVI-SPL/Ford AV; owner rule: keep only claims that differentiate) |
 | Command & Control | 186604 | page-186604_2026-04-13T100703 | todo |
 
