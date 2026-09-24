@@ -1,0 +1,16 @@
+{"hero_img":"2022/05/Classroom-1-2.jpg","crumb":"Classroom Technologies","eyebrow":"CLASSROOM TECHNOLOGIES","h1a":"Classroom Technology","h1b":"for Every Learning Space",
+"sub":"Presentation, collaboration and hybrid learning systems for K–12 and higher education. One partner designs, installs and supports it all.",
+"intro_h":"Built for How Students Learn Today",
+"intro_p":"Classrooms are no longer just a platform for presentation. They have become interactive, immersive and collaborative, and hybrid learning is now a necessity. Students expect a similar experience on campus or at home, and teachers expect them to actively participate either way.",
+"chips":["K–12","Higher Education","Lecture Halls","Auditoriums","Training Centers","Hybrid Classrooms"],
+"tech_h":"Learning Solutions","tech_p":"From a single display to a fully collaborative hybrid classroom, we design a system around your teaching goals.",
+"cards":[
+{"img":"2023/06/U-of-U-classroom.jpg","alt":"University classroom with a large projection screen","h":"Presentation Systems","p":"Large format displays, video walls, projection or direct view LED that capture attention and let teachers present from any device.","b":["Classrooms and lecture halls","Present from laptops and mobile devices","Options weighed for your space and budget"]},
+{"img":"2022/05/Education-Display-System.jpg","alt":"Teacher presenting on a classroom display","h":"Collaboration Systems","p":"Immersive systems where students manipulate digital content, share from their own devices and present multiple sources at once.","b":["Student device sharing","Multi-source presenting","Student response systems with real-time feedback"]},
+{"img":"2022/05/Distance-Learning-2.jpg","alt":"Student joining a class remotely","h":"Hybrid & Distance Learning","p":"Systems that let remote students participate from any location, so learning feels the same on campus or at home.","b":["Hybrid and blended learning","Remote participation","Existing rooms converted for distance learning"]}],
+"partner_p":"One team designs, engineers, installs and supports your learning spaces, from a single classroom to a campus-wide rollout. You get one point of contact and one accountable partner.",
+"gal_h":"Designs for Every Learning Space","gal_p":"Example system designs, from small classrooms to auditoriums.","gal_contain":true,
+"gallery":[["2022/05/Small-Classroom1.jpg","Small classroom system design diagram","Small Classroom"],["2022/05/Middle-Large-Classroom1-1.jpg","Mid-to-large classroom system design diagram","Mid-to-Large Classroom"],["2022/05/Auditorium1.jpg","Auditorium system design diagram","Auditorium"]],
+"band_p":"Schools, colleges and universities can purchase through our State of Utah cooperative contract, with prices guaranteed for the life of the contract. We also serve out-of-state education and government customers.",
+"related":[["Video Conferencing","/web-conferencing/"],["Visual Displays","/visual-displays/"],["Digital Signage","/digital-signage-2/"],["Council Rooms","/council-room/"]],
+"cta_h":"Let's Talk About Your Learning Spaces"}
