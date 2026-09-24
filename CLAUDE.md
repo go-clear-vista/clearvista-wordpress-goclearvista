@@ -174,6 +174,20 @@ The full discussion is in `docs/conversation-log.md`.
 - **"Let's Talk About Your Project" band** above the Services form (`?ref=Services`).
 - The "Did You Know?" puzzle section was removed.
 
+### State of Utah Contract page (ID 183285; backup `page-183285_2026-09-23T215901`; original `..._2025-07-02...`)
+- **Hero:** "Buy Smarter Through the State Contract" over the SLC skyline. Buttons: "Request Contract Pricing" (#cvs-quote) and "Institution Portals" (#cvu-portals).
+- **Facts band:** 5-year price guarantee · 10,000s of products · Beyond Utah (out-of-state government and education served).
+- **The owner said the LCD & DLP Projectors and Integrated Classroom Solutions contracts are no longer held.** The contract cards and the "3 contracts" stat were removed at their request. **Never list specific contracts or a contract count** without confirming with the owner first. The page excerpt was also rewritten; it used to say "T.V.S. Pro… three contracts".
+- **Sections:** Why buy through a cooperative contract (check list plus the Utah training link) · Designed, Installed and Supported (with the SLA link) · "Products Available on Contract" labels · Need Funding (3 cards: grants.gov, utahgrants, Panasonic) · the 6 institution portal buttons · the CTA band · the form (`ref=State of Utah Contract`).
+
+### About Us page (ID 184927 at /about-us-2/; backup `page-184927_2026-09-23T220350`; original `..._2026-04-13...`)
+- **Hero:** "About ClearVista" over the DVLed lobby photo.
+- **Facts band:** Hundreds of organizations · 100+ brands · State of Utah contract provider · 900+ pieces at the Delta Center.
+- **Our Story:** Ken Bollinger photo and a timeline (1953 TV Specialists → 1966 Panasonic → 2013 TVS Pro → today ClearVista). The "repair business", "home video electronics" and "CE Pro" wording was dropped.
+- **Clients:** a custom 29-logo grid replaces the Supsystic gallery shortcode (id 6), which was huge and absolutely positioned. It sits above a collapsible list of 114+ client names, open on desktop and collapsed on phone and tablet. Obvious typos fixed: Hill Air Force Base, Utah County Auditor's Office, Latter-day Saints.
+- **FAQs:** rebuilt as `<details>`. "TVS Pro order products" now reads "ClearVista". The used-equipment phone number was changed from "1-800-486-5757" to (801) 486-5757; **ask the owner whether the 800 number was real.**
+- **Visit or contact:** phone, address, hours, showroom link, Google map, contact form (`ref=About Us`).
+
 ## Waiting on the owner
 **Photos:**
 - the About Us tile on the home page
@@ -187,9 +201,7 @@ The full discussion is in `docs/conversation-log.md`.
 **Owner's plan:** once every change is done, the owner reviews the whole site and sends specific change requests.
 
 ## Next up
-2. The State of Utah Contract page.
-3. About Us.
-4. Blog.
-5. The "conversion pages" (tier 3).
+1. Blog.
+2. The "conversion pages" (tier 3).
 
 Reuse the `cvs-` components so every landing page matches.
