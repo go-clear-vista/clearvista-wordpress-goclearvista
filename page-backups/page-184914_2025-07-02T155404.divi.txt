@@ -1,0 +1,67 @@
+[et_pb_section fb_built="1" _builder_version="4.21.0" _module_preset="default" background_image="https://www.goclearvista.com/wp-content/uploads/2021/12/Employees-top.jpg" background_size="contain" background_position="top_center" height="534px" height_tablet="534px" height_phone="534px" height_last_edited="on|phone" custom_margin="||-120px||false|false" background_last_edited="on|phone" global_colors_info="{}"][et_pb_row column_structure="1_5,3_5,1_5" use_custom_gutter="on" _builder_version="4.16" _module_preset="default" custom_margin="61px||0px||false|false" custom_margin_tablet="-101px||||false|false" custom_margin_phone="-185px||||false|false" custom_margin_last_edited="on|phone" global_colors_info="{}"][et_pb_column type="1_5" _builder_version="4.16" _module_preset="default" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][/et_pb_column][et_pb_column type="3_5" _builder_version="4.16" _module_preset="default" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][et_pb_text _builder_version="4.21.0" _module_preset="default" header_font="|700|||||||" header_text_align="center" header_text_color="#FFFFFF" header_font_size="65px" background_color="#282828" text_orientation="center" custom_margin="139px||0px||false|false" custom_margin_tablet="139px||0px||false|false" custom_margin_phone="172px||0px||false|false" custom_margin_last_edited="on|phone" custom_padding="20px|20px||20px|false|true" header_font_size_tablet="65px" header_font_size_phone="32px" header_font_size_last_edited="on|phone" header_text_shadow_style="preset5" header_text_shadow_vertical_length="0.05em" header_text_shadow_color="#6997bf" global_colors_info="{}" custom_padding__hover_enabled="on|desktop" custom_padding__hover="20px|20px||20px|false|true"]<h1>Join Our Team</h1>[/et_pb_text][et_pb_text _builder_version="4.27.4" _module_preset="default" text_text_color="#bababa" header_text_align="center" background_color="#282828" text_orientation="center" custom_padding="20px|20px|20px|20px|true|true" global_colors_info="{}"]<p>Come grow with a company that has over 70 years of passionate experience!</p>[/et_pb_text][/et_pb_column][et_pb_column type="1_5" _builder_version="4.16" _module_preset="default" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][/et_pb_column][/et_pb_row][/et_pb_section][et_pb_section fb_built="1" _builder_version="4.16" _module_preset="default" background_color="#000000" custom_margin="-56px||-57px||false|false" custom_margin_tablet="-34px||-48px||false|false" custom_margin_phone="||-90px||false|false" custom_margin_last_edited="on|tablet" global_colors_info="{}"][et_pb_row _builder_version="4.16" _module_preset="default" custom_margin_tablet="0px||||false|false" custom_margin_phone="35px||||false|false" custom_margin_last_edited="on|phone" custom_padding="0px||0px||true|false" global_colors_info="{}"][et_pb_column type="4_4" _builder_version="4.16" _module_preset="default" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][et_pb_text _builder_version="4.27.4" _module_preset="default" text_text_color="#FFFFFF" header_text_color="#FFFFFF" header_2_text_color="#FFFFFF" header_2_font_size="32px" custom_margin="34px||-30px||false|false" custom_margin_tablet="-38px||||false|false" custom_margin_phone="-51px||||false|false" custom_margin_last_edited="on|phone" custom_padding="||0px||false|false" global_colors_info="{}"]<h2>Why Work For Us?</h2>
+<p data-pm-slice="1 1 []">ClearVista is committed to being the most sought after A/V Technology Solutions Partner in the Mountain West. Since 1953, we’ve consistently been recognized as industry leaders by the manufacturers we partner with and have been on several CE Pro’s (Custom Electronics Professionals Magazine) nationwide yearly-released ‘top’ lists each year. We incorporate 4 core values in every aspect of our business. Our core values are: Doing the right thing, Driving Relationships, being Passionate about what we do, and Figuring stuff out. We are always looking for ideal candidates that have a passion for AV technologies and are willing and excited to incorporate these other values into their work experience. We offer competitive pay, benefits, and advancement opportunities.</p>
+<p>&nbsp;</p>[/et_pb_text][et_pb_divider color="#d9a13a" divider_style="double" divider_position="center" divider_weight="9px" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][/et_pb_divider][/et_pb_column][/et_pb_row][et_pb_row column_structure="1_2,1_2" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_column type="1_2" _builder_version="4.16" _module_preset="default" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][et_pb_text _builder_version="4.16" _module_preset="default" text_text_color="#FFFFFF" text_line_height="1.5em" header_text_color="#FFFFFF" header_2_text_color="#FFFFFF" header_2_font_size="32px" custom_padding="||0px||false|false" global_colors_info="{}"]<h2>Benefits</h2>
+<ul class="ben_list">
+<li>Medical &amp; Dental Insurance</li>
+<li>Life Insurance</li>
+<li>Flexible Spending Account (FSA) Or Health Savings Account (HSA)</li>
+<li>Identity Theft Protection</li>
+<li>Profit Sharing</li>
+<li>401K</li>
+<li>Paid Time Off (PTO)</li>
+<li>Paid Holidays</li>
+<li>Bereavement Leave</li>
+<li>Work From Home Options (Dependent upon position)</li>
+<li>Paid Training</li>
+<li>Company Sponsored Activities</li>
+<li>Recognition Awards</li>
+<li>Employee Discounts</li>
+<li>Employee Referral Program</li>
+<li>Self Improvement Compensation</li>
+<li>Opportunities for Career Growth &amp; Advancement</li>
+<li>In-house Workout Room &amp; Equipment</li>
+<li>Break/Lunch Room with Free Snacks &amp; Drinks</li>
+</ul>
+<p>&nbsp;</p>[/et_pb_text][/et_pb_column][et_pb_column type="1_2" _builder_version="4.16" _module_preset="default" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][et_pb_image src="https://www.goclearvista.com/wp-content/uploads/2021/12/Top-Golf.jpg" title_text="Top Golf" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][/et_pb_image][/et_pb_column][/et_pb_row][et_pb_row _builder_version="4.16" _module_preset="default" custom_padding="0px||0px||true|false" global_colors_info="{}"][et_pb_column type="4_4" _builder_version="4.16" _module_preset="default" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][et_pb_divider color="#d9a13a" divider_style="double" divider_position="center" divider_weight="9px" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][/et_pb_divider][et_pb_text _builder_version="4.16" _module_preset="default" header_text_color="#FFFFFF" header_2_text_color="#FFFFFF" header_2_font_size="32px" custom_margin="0px||15px||false|false" custom_padding="0px||0px||true|false" global_colors_info="{}"]<h2>Available Careers</h2>[/et_pb_text][et_pb_divider color="#d9a13a" divider_style="double" divider_position="center" divider_weight="9px" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][/et_pb_divider][et_pb_accordion open_toggle_text_color="#292d5b" closed_toggle_text_color="#000000" icon_color="#292d5b" use_icon_font_size="on" icon_font_size="41px" module_class="car_accordion" _builder_version="4.22.2" _module_preset="default" toggle_font_size="25px" global_colors_info="{}"][et_pb_accordion_item title="Installer" _builder_version="4.22.2" _module_preset="default" custom_margin="0px||0px||true|false" global_colors_info="{}" open="on"]<p>Have a passion for hands-on work and technology? We're looking for candidates that work well with their hands, have a passion for technology, like working in a team environment,  and are able to interact well with customers at an install location. The ideal candidate will have the ability to maintain a professional/friendly persona in all types of situations and with all types of customers and has the ability to help exceed customer expectations. Tipping cables, hanging TVs and/or projectors and the other AV installation experience preferred. Demonstrates thorough understanding of cabling standards</p>
+<p><strong>Responsibilities include:</strong></p>
+<ul style="margin-bottom: 1.6em !important;">
+<li>Participating in site manpower planning meetings</li>
+<li>Performing team installations, on-site at customer locations, within given time parameters</li>
+<li>Using Zoho to communicate, log work, and prepare required reports</li>
+</ul>
+<p><strong>Minimum Requirements:</strong></p>
+<ul style="margin-bottom: 1.6em !important;">
+<li>High School Diploma or equal</li>
+<li>Pass a background check</li>
+<li>Clean driving record</li>
+<li>Ability to lift 100lbs</li>
+<li>Not afraid of heights</li>
+</ul>
+<p><strong>This position:</strong></p>
+<ul style="margin-bottom: 1.6em !important;">
+<li>Full time (Normally M-F 8:00am - 5:00pm)</li>
+<li>Full time benefits</li>
+<li>Starting wage $15-$19/hour depending on experience</li>
+<li>Advancement opportunities available</li>
+</ul>
+<p style="margin-bottom: 1.6em !important; font-weight: bold; font-size: 1.5em !important; color: #292d5b;">Interested in this position?<br />Fill out the form below and upload your resume!</p>[/et_pb_accordion_item][et_pb_accordion_item title="Sales Associate" open="off" _builder_version="4.22.2" _module_preset="default" custom_margin="0px||0px||true|false" global_colors_info="{}"]<p>Have a passion for technology and helping people? We're looking for passionate associate candidates that will help customers find the perfect audiovisual solution for their needs.  Interacting with customers will be in-house at TVS Pro, at the customer's location, or remotely. The ideal candidate will have Microsoft tools experience, the ability to maintain a friendly/professional persona in all types of situations and with all types of customers, and has the desire to exceed customer expectations.</p>
+<p><strong>Responsibilities include:</strong></p>
+<ul style="margin-bottom: 1.6em !important;">
+<li>Answering phone calls, listening to customer's needs and directing them to the most appropriate sales account representative</li>
+<li>Going to customer's locations for walk-throughs and performing needs analysis' to find the perfect technological solution and services for their budget</li>
+<li>Using Zoho to track customer orders, projects, and installs</li>
+</ul>
+<p><strong>Minimum Requirements:</strong></p>
+<ul style="margin-bottom: 1.6em !important;">
+<li>High School Diploma or equal</li>
+<li>Pass a background check</li>
+<li>Clean driving record</li>
+</ul>
+<p><strong>This position:</strong></p>
+<ul style="margin-bottom: 1.6em !important;">
+<li>Is full time (Normally M-F 9am - 5pm)</li>
+<li>Offers full-time benefits</li>
+<li>Yearly salary starts at $45-$65K depending on experience</li>
+<li>Offers advancement opportunities</li>
+</ul>
+<p style="margin-bottom: 1.6em !important; font-weight: bold; font-size: 1.5em !important; color: #292d5b;">Interested in this position?<br />Fill out the form below and upload your resume!</p>[/et_pb_accordion_item][/et_pb_accordion][et_pb_divider color="#d9a13a" divider_style="double" divider_position="center" divider_weight="9px" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][/et_pb_divider][et_pb_text _builder_version="4.16" _module_preset="default" header_text_color="#FFFFFF" header_2_text_color="#FFFFFF" header_2_font_size="32px" custom_margin="0px||-10px||false|false" custom_padding="0px||0px||true|false" global_colors_info="{}"]<h2>Apply Now</h2>[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row column_structure="3_5,1_5,1_5" _builder_version="4.16" _module_preset="default" global_colors_info="{}"][et_pb_column type="3_5" _builder_version="4.16" _module_preset="default" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][et_pb_code _builder_version="4.27.4" _module_preset="default" background_color="#FFFFFF" hover_enabled="0" global_colors_info="{}" sticky_enabled="0"]<iframe aria-label='Job Interest Form' frameborder="0" style="height:1450px;width:100%;border:none;" src='https://forms.tvsproslc.com/clearvista/form/JobInterestForm/formperma/S5-laKfQAqqb2fQwunlNS7WcU7s-Hck5qJ2NnBoHo_k'></iframe>[/et_pb_code][/et_pb_column][et_pb_column type="1_5" _builder_version="4.16" _module_preset="default" background_color="RGBA(0,0,0,0)" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][/et_pb_column][et_pb_column type="1_5" _builder_version="4.16" _module_preset="default" pac_dcm_carousel_specific_module_num="0" global_colors_info="{}"][/et_pb_column][/et_pb_row][/et_pb_section]

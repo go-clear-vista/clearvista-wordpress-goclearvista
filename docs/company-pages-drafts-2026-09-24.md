@@ -1,6 +1,6 @@
-# Company Pages Redesign Drafts — September 24, 2026
+# Company Pages Redesign — September 24, 2026
 
-Four company pages were rebuilt in the redesigned style (same components and colors as the Services and Solutions pages) and saved as **drafts** for ClearVista's approval. The live pages have not been changed.
+Four company pages were rebuilt in the redesigned style (same components and colors as the Services and Solutions pages). ClearVista approved the drafts and all four went **live on 2026-09-24**; the drafts were moved to the trash.
 
 | Page | Live ID | Live URL | Draft ID | Form |
 |---|---|---|---|---|
@@ -50,5 +50,16 @@ Source: `company-pages/gen_company.py` (imports the components and CSS from `ser
 2. Headshots for Chris Isaacson and Ryan Long, and whether to show their last names as initials like everyone else.
 3. The Installer posting says "tipping cables". Confirm the wording (possibly "terminating cables").
 
-## To publish (after approval)
-Follow `CLAUDE.md` → Workflow: re-check each live page's `modified`, back up the current content to `page-backups/page-<id>_<modified>.divi.txt`, `pages.update` the live ID with the approved draft content, verify live (`node scripts/livepage.js <slug> <outdir>`, check for raw `et_pb_` text and the form ref), trash the draft, and update the footer/menu only if a slug changes (none do).
+## Published 2026-09-24
+
+| Page | Live ID | Saved (modified) | Backup before | Backup after |
+|---|---|---|---|---|
+| Our Team | 185496 | 15:16:08 | page-185496_2026-05-18T095419 | page-185496_2026-09-24T151608 |
+| Certifications & Trainings | 251672 | 15:18:54 | page-251672_2026-04-13T103121 | page-251672_2026-09-24T151854 |
+| Careers | 184914 | 15:22:47 | page-184914_2025-07-02T155404 | page-184914_2026-09-24T152247 |
+| Product Line Card | 185025 | 15:25:40 | page-185025_2026-03-30T101656 | page-185025_2026-09-24T152540 |
+
+- Live pages were unchanged since first read (checked `modified` before saving). Same URLs, slugs, templates and featured images, so menus and the footer need no change.
+- Verified live: `python3 company-pages/verify_live.py` (rendered Code module matches the local build, correct form ref, no raw `et_pb_` shortcodes) and `node company-pages/livecheck.js <outdir>` (1440/1280/1024/820/390px: no horizontal overflow, no broken images incl. all 113 logos, brand search works, all internal links 200).
+- Drafts 254240, 254243, 254245, 254246 moved to the trash.
+- Rollback: WordPress Revisions on each page, or paste the "Backup before" file from `page-backups/`.

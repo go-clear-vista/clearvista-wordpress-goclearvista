@@ -1,0 +1,39 @@
+[et_pb_section fb_built="1" _builder_version="4.20.0" _module_preset="default" background_image="https://www.goclearvista.com/wp-content/uploads/2023/02/Certifications-and-Training.jpg" custom_padding="80px||80px||false|false" global_colors_info="{}"][et_pb_row _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"][et_pb_column type="4_4" _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"][et_pb_text _builder_version="4.21.0" _module_preset="default" header_font_size="34px" background_color="#FFFFFF" width="55%" width_tablet="55%" width_phone="89%" width_last_edited="on|phone" module_alignment="center" custom_padding="11px||||false|false" header_font_size_tablet="34px" header_font_size_phone="29px" header_font_size_last_edited="on|phone" border_radii="on|18px|18px|18px|18px" global_colors_info="{}"]<h1 style="text-align: center;">Certifications &amp; Training</h1>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section][et_pb_section fb_built="1" _builder_version="4.20.0" _module_preset="default" custom_padding="30px||30px||false|false" global_colors_info="{}"][et_pb_row _builder_version="4.20.0" _module_preset="default" custom_margin="0px||0px||false|false" custom_padding="0px||0px||false|false" global_colors_info="{}"][et_pb_column type="4_4" _builder_version="4.19.5" _module_preset="default" global_colors_info="{}"][et_pb_text _builder_version="4.20.0" _module_preset="default" text_font="|700|||||||" text_font_size="16px" text_orientation="center" global_colors_info="{}"]<p>Looking for specialists?<br />Here's a list of some of our certifications &amp; training!</p>[/et_pb_text][/et_pb_column][/et_pb_row][/et_pb_section][et_pb_section fb_built="1" _builder_version="4.20.0" _module_preset="default" custom_margin="0px||0px||false|false" custom_padding="0px||0px||false|false" global_colors_info="{}"][et_pb_row column_structure="1_3,1_3,1_3" _builder_version="4.20.0" _module_preset="default" custom_padding="0px||0px||false|false" global_colors_info="{}"][et_pb_column type="1_3" _builder_version="4.19.5" _module_preset="default" global_colors_info="{}"][et_pb_text _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"]<ul>
+<li>Araknis Professional Certified Network Administrator (PCNA)</li>
+<li>Audinate Dante Certified Levels 1-3</li>
+<li>AVIXA Certified Technology Specialist (CTS)</li>
+<li>Chief Certified Partner</li>
+<li>ClearOne ProAV Conferencing Certification</li>
+<li>Control4 Associate Installer</li>
+<li>Control4 Tech Certified</li>
+<li>Control4 Certified Automation Programmer</li>
+<li>Crestron Digital Media Certified Designer (DMC-D)</li>
+<li>D+M Group Advanced Certification</li>
+<li>Epson FDA RG3 Projectors: Installer Certification</li>
+<li>Epson Integration Authorized Reseller</li>
+<li>Extron Certified AV Associate</li>
+</ul>[/et_pb_text][/et_pb_column][et_pb_column type="1_3" _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"][et_pb_text _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"]<ul>
+<li>Extron Certified Control Professional</li>
+<li>Extron Certified Network AV Specialist</li>
+<li>Extron Certified ProDSP Specialist</li>
+<li>Extron Certified XTP engineer</li>
+<li>Harman Core Curriculum Certification</li>
+<li>HDBaseT Master Certification</li>
+<li>NewTek 3Play Operation</li>
+<li>NewTek Certified Operator</li>
+<li>NewTek Live Production with TriCasterooms</li>
+<li>Panasonic iPro Certified Reseller</li>
+<li>QSC Q-SYS Certified</li>
+<li>RED Certified/Authorized Dealer</li>
+<li>Sharp NEC Certified FA and FE Series DVLED Installer</li>
+</ul>[/et_pb_text][/et_pb_column][et_pb_column type="1_3" _builder_version="4.19.5" _module_preset="default" global_colors_info="{}"][et_pb_text _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"]<ul>
+<li>Shure Integrated Systems Certification Levels 1-2</li>
+<li>Shure Microflex Advanced Certified</li>
+<li>Sony Tatsu-Jin Master Certified</li>
+<li>Wolfvision Cynap</li>
+<li>Zoom Technical Sales Accreditation (ZTSA) Zoom Foundations</li>
+<li>Zoom Technical Sales Accreditation (ZTSA) Zoom Meetings &amp; Chat</li>
+<li>Zoom Technical Sales Accreditation (ZTSA) Zoom Phone</li>
+<li>Zoom Technical Sales Accreditation (ZTSA) Zoom Rooms</li>
+<li>And more!</li>
+</ul>[/et_pb_text][/et_pb_column][/et_pb_row][et_pb_row _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"][et_pb_column type="4_4" _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"][et_pb_button button_url="#wonderbox" button_text="Contact a Pro Today!" button_alignment="center" module_class="wplightbox" _builder_version="4.20.0" _module_preset="default" custom_button="on" button_text_size="26px" button_text_color="#FFFFFF" button_bg_color="#292d5b" button_border_color="#1f34cd" button_border_radius="15px" background_layout="dark" global_colors_info="{}"][/et_pb_button][/et_pb_column][/et_pb_row][et_pb_row module_id="wonderbox" _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"][et_pb_column type="4_4" _builder_version="4.20.0" _module_preset="default" global_colors_info="{}"][et_pb_text admin_label="Text" _builder_version="4.20.0" _module_preset="default" header_2_text_color="#292d5b" custom_padding="20px||||false|false" global_colors_info="{}"]<h2 style="text-align: center;">Contact a Pro Today!</h2>[/et_pb_text][et_pb_code _builder_version="4.20.2" _module_preset="default" global_colors_info="{}"]<div id="zf_div_O7JlkryEddXItSwvNTodTFWnAsHCI4_YceBLw9NwsmE"></div><script type="text/javascript">(function() {<!-- [et_pb_line_break_holder] -->try{<!-- [et_pb_line_break_holder] -->var f = document.createElement("iframe");<!-- [et_pb_line_break_holder] -->f.src = 'https://forms.goclearvista.com/clearvista/form/ContactaPro/formperma/O7JlkryEddXItSwvNTodTFWnAsHCI4_YceBLw9NwsmE?zf_rszfm=1&ref=Certifications%20and%20Trainings';<!-- [et_pb_line_break_holder] --><!-- [et_pb_line_break_holder] -->f.style.border="none";<!-- [et_pb_line_break_holder] -->f.style.height="1310px";<!-- [et_pb_line_break_holder] -->f.style.width="90%";<!-- [et_pb_line_break_holder] -->f.style.transition="all 0.5s ease";<!-- [et_pb_line_break_holder] -->var d = document.getElementById("zf_div_O7JlkryEddXItSwvNTodTFWnAsHCI4_YceBLw9NwsmE");<!-- [et_pb_line_break_holder] -->d.appendChild(f);<!-- [et_pb_line_break_holder] -->window.addEventListener('message', function (){<!-- [et_pb_line_break_holder] -->var evntData = event.data;<!-- [et_pb_line_break_holder] -->if( evntData && evntData.constructor == String ){<!-- [et_pb_line_break_holder] -->var zf_ifrm_data = evntData.split("|");<!-- [et_pb_line_break_holder] -->if ( zf_ifrm_data.length == 2 ) {<!-- [et_pb_line_break_holder] -->var zf_perma = zf_ifrm_data[0];<!-- [et_pb_line_break_holder] -->var zf_ifrm_ht_nw = ( parseInt(zf_ifrm_data[1], 10) + 15 ) + "px";<!-- [et_pb_line_break_holder] -->var iframe = document.getElementById("zf_div_O7JlkryEddXItSwvNTodTFWnAsHCI4_YceBLw9NwsmE").getElementsByTagName("iframe")[0];<!-- [et_pb_line_break_holder] -->if ( (iframe.src).indexOf('formperma') > 0 && (iframe.src).indexOf(zf_perma) > 0 ) {<!-- [et_pb_line_break_holder] -->var prevIframeHeight = iframe.style.height;<!-- [et_pb_line_break_holder] -->if ( prevIframeHeight != zf_ifrm_ht_nw ) {<!-- [et_pb_line_break_holder] -->iframe.style.height = zf_ifrm_ht_nw;<!-- [et_pb_line_break_holder] -->}<!-- [et_pb_line_break_holder] -->}<!-- [et_pb_line_break_holder] -->}<!-- [et_pb_line_break_holder] -->}<!-- [et_pb_line_break_holder] -->}, false);<!-- [et_pb_line_break_holder] -->}catch(e){}<!-- [et_pb_line_break_holder] -->})();</script><!-- [et_pb_line_break_holder] --><!-- [et_pb_line_break_holder] -->[/et_pb_code][/et_pb_column][/et_pb_row][/et_pb_section]
