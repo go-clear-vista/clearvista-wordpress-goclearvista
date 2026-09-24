@@ -28,4 +28,5 @@ Save: `python3 scripts/wrap_divi.py notes/<page>-code.html "<Label>" "<ref>" <ou
 
 All 6 solution conversion pages LIVE as of 2026-09-24. Open: owner to send newer photos (Visual Displays gallery, Video Conferencing, Command & Control, Digital Signage hero).
 - 2026-09-24 13:42 Solutions page: 7 cards in menu order (C&C, Physical Security, VC, Classroom, Council, Signage, Displays); grid now flex-centered. Services landing page NOT touched (another agent edited it 13:27).
-| Physical Security | 254056 | page-254056_2026-04-13T100407 | preview sent 2026-09-24 (no gallery: only 3 security photos exist; form ref changes to 'Physical Security') |
+| Physical Security | 254056 | page-254056_2026-04-13T100407 | LIVE 2026-09-24 14:08 (backup page-254056_2026-09-24T140846; no gallery: only 3 security photos exist; form ref changes to 'Physical Security') |
+- 2026-09-24 14:08 Physical Security live; verified at 5 widths, 0 broken links, form ref=Physical Security. Footer pasted by owner verified: matches notes/footer-code-paste.txt, Solutions list in menu order, no overflow at 1440/390.
