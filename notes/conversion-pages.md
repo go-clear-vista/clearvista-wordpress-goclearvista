@@ -28,3 +28,4 @@ Save: `python3 scripts/wrap_divi.py notes/<page>-code.html "<Label>" "<ref>" <ou
 
 All 6 solution conversion pages LIVE as of 2026-09-24. Open: owner to send newer photos (Visual Displays gallery, Video Conferencing, Command & Control, Digital Signage hero).
 - 2026-09-24 13:42 Solutions page: 7 cards in menu order (C&C, Physical Security, VC, Classroom, Council, Signage, Displays); grid now flex-centered. Services landing page NOT touched (another agent edited it 13:27).
+| Physical Security | 254056 | page-254056_2026-04-13T100407 | preview sent 2026-09-24 (no gallery: only 3 security photos exist; form ref changes to 'Physical Security') |
