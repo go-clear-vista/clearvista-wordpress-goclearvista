@@ -6,10 +6,10 @@ This repo tracks the 2026 redesign. The site itself lives in WordPress (Extra th
 | Path | What's in it |
 |---|---|
 | `CLAUDE.md` | Project memory: goals, design system, site and access facts, the safe editing workflow, what's live, and what's pending. |
-| `docs/conversation-log.md` | The full redesign discussion in order (user messages and Claude's replies). |
-| `page-backups/` | The Divi content of each page (home 249762, Solutions 183940, Services 183281), saved as `page-<id>_<modified>.divi.txt` at every save, so any version can be restored. |
+| `docs/conversation-log.md` | The full redesign discussion in order (user messages and Claude's replies). Rebuild it with `python3 scripts/build-conversation-log.py <transcript.jsonl> docs/conversation-log.md`. |
+| `page-backups/` | The Divi content of each page (home 249762, Solutions 183940, Services 183281, State Contract 183285, About Us 184927, Blog 184148), saved as `page-<id>_<modified>.divi.txt` at every save, so any version can be restored. |
 | `notes/*-steps.md` | Step-by-step instructions for the owner's Theme Builder edits (header button, footer). |
-| `notes/*-code.html` | The HTML/CSS for each new section: home Why ClearVista, home About/contact, Solutions, Services, footer. |
+| `notes/*-code.html` | The HTML/CSS for each new section: home Why ClearVista, home About/contact, Solutions, Services, State Contract, About Us, Blog, footer. |
 | `notes/previews/` | Before, after and live screenshots at desktop, tablet and phone sizes. |
 | `scripts/` | The Playwright scripts used to preview mockups and check the live pages. |
 

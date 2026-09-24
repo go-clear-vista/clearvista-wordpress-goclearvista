@@ -330,12 +330,6 @@ There's also a quicker option I can do myself: hide the bar **on the home page o
 
 Tell me once it's hidden and I'll check the live site. Then send the competitor screenshots and I'll propose the next edits, one at a time.
 
-*(user attached a screenshot)*
-
-*(user attached a screenshot)*
-
-*(user attached a screenshot)*
-
 **🤖 Claude — 2026-09-23 20:41 UTC**
 
 Thanks, these are useful. First I'll check whether the top bar is gone on the live site.
@@ -463,8 +457,6 @@ Your theme is Extra (made by the same company as Divi), so there's a good chance
 
 Tell me what you see once you're in, and I can walk you through each step of the header change.
 
-*(user attached a screenshot)*
-
 **🤖 Claude — 2026-09-23 20:49 UTC**
 
 It's the **Extra** menu item near the bottom of your left menu, just above **Collapse Menu**.
@@ -478,8 +470,6 @@ That opens the header in the visual builder, and from there it's the same steps 
 **Before you edit, a quick safety net:** I can see you have **UpdraftPlus** installed, which is a backup plugin. Go to **UpdraftPlus → Backup Now** and run a backup first. Then, if anything in the header goes wrong, you can restore it in one click. Copying the Global Header in Theme Builder also works, but a full backup is safer.
 
 Tell me what you see once the header is open and I'll guide you through each click.
-
-*(user attached a screenshot)*
 
 **🤖 Claude — 2026-09-23 20:50 UTC**
 
@@ -499,8 +489,6 @@ The Theme Builder page shows cards with rows labelled **Global Header / Global B
 **One security note:** your screenshot shows the **Google API key**. That's normal for a Maps key, since it's also visible in your site's code, but make sure it's restricted to `goclearvista.com` in your Google Cloud console so nobody else can use it.
 
 Send a screenshot once you're in Theme Builder and I'll guide you through each click.
-
-*(user attached a screenshot)*
 
 **🤖 Claude — 2026-09-23 20:53 UTC**
 
@@ -522,8 +510,6 @@ You're in the right place. The **Global Header** is green because it's shared: t
 5. Click the purple **⋯** button at the bottom-centre of the screen, then click **Save** on the bottom-right.
 
 Send a screenshot once you've done step 3, or if something doesn't look like what I described. Next we'll merge the logo and search into the menu bar.
-
-*(user attached a screenshot)*
 
 ---
 
@@ -608,8 +594,6 @@ So in Sizing:
 
 Then click the green **✓** and send me a screenshot.
 
-*(user attached a screenshot)*
-
 **🤖 Claude — 2026-09-23 21:05 UTC**
 
 Yes, that's correct. **Logo Max Height: 64px** is in the right box, and the logo in the menu bar (bottom-left, over the navy) is now a normal size.
@@ -625,8 +609,6 @@ Yes, that's correct. **Logo Max Height: 64px** is in the right box, and the logo
 4. Click **Save**.
 
 Send a screenshot after step 2 if you'd like me to check before you save.
-
-*(user attached a screenshot)*
 
 **🤖 Claude — 2026-09-23 21:06 UTC**
 
@@ -645,8 +627,6 @@ Getting close. The logo is in the menu bar at a good size and the search icon is
 **3. Then C:** hide the old logo-and-search section (the white area above with the big logo and search box) on Phone, Tablet and Desktop.
 
 Don't click **Save** yet. Send another screenshot after 1 and 2 and I'll check it first.
-
-*(user attached a screenshot)*
 
 ---
 
@@ -919,12 +899,6 @@ You can also remove the 4px bottom margin you added to the phone-number Text mod
 
 Tell me when it's saved and I'll check the phone and tablet views again.
 
----
-
-### 🧑 User — 2026-09-23 21:52 UTC
-
-Saved
-
 **🤖 Claude — 2026-09-23 21:53 UTC**
 
 The header is finished and working on all three screen sizes.
@@ -1038,8 +1012,6 @@ In **Extra → Theme Builder → Global Header**:
 5. Click **Save Changes**, then clear the WP Rocket cache.
 
 Tell me when it's saved and I'll check that the button sits in line after the search icon, looks right, and goes to the contact page.
-
-*(user attached a screenshot)*
 
 ---
 
@@ -1660,3 +1632,132 @@ Approve, or tell me what to change, and I'll put it live and check it on every s
 ### 🧑 User — 2026-09-24 04:41 UTC
 
 Can you commit this discussion and all memory to the github repo "clearvista-wordpress-goclearvista"
+
+**🤖 Claude — 2026-09-24 04:43 UTC**
+
+I've pulled the conversation log and 17 page-content backups out of the transcript. Next I'm checking them for anything sensitive, then writing the project memory file.
+
+**🤖 Claude — 2026-09-24 04:44 UTC**
+
+I've committed the discussion and project memory to `go-clear-vista/clearvista-wordpress-goclearvista`. I pushed it to a new branch, `claude/zealous-keller-b29qex`, rather than straight onto `main`. There was no separate memory store for this session, so the memory is what I wrote up from our conversation.
+
+**What's in the commit:**
+- **`CLAUDE.md`** is the project memory. It covers:
+  - the brand direction ("larger than we are", no consumer tech, no made-up claims)
+  - the design system and CSS class names
+  - site and access details: page IDs, the connector, and what you edit in Theme Builder
+  - the safe editing steps and the gotchas we hit
+  - what's live on each page
+  - what's waiting on you (the Services decisions and the photos) and what's next
+
+  A future Claude session opened on this repo loads it automatically.
+- **`docs/conversation-log.md`** is the whole discussion in order: all 45 of your messages and my replies. I left out tool calls and raw output. I checked it for passwords and keys; there are none.
+- **`page-backups/`** has the Divi content of the home, Solutions and Services pages at every save (17 versions), including the originals from before the redesign. You can restore any of them.
+- **`notes/`** has:
+  - the header and footer Theme Builder steps
+  - the HTML/CSS for each new section (Why ClearVista, About/contact, Solutions, the Services preview, footer)
+  - 36 screenshots: before, after and live
+- **`scripts/`** has the Playwright scripts I used to preview and check the pages.
+
+Do you want me to merge the branch into `main`, or open a pull request so you can review it first?
+
+When you're ready, the Services page is still waiting on your four decisions from my last message. Once you answer, I'll put it live.
+
+---
+
+### 🧑 User — 2026-09-24 04:46 UTC
+
+I love the services changes, let's go for it. To answer your questions:
+1) Keeping then TVS Pro is appropriate, since the published article references TVS Pro and will not be changing. 
+2) Yes, ok to use publically. 
+3) Go live with these, but check the wordpress media repo if there is a better image. 
+4) Yes, these are ok. 
+
+After all changes, I will review the website and request any specific changes.
+
+**🤖 Claude — 2026-09-24 04:46 UTC**
+
+I'm going live with the Services page. First I'm searching the media library for better Design & Engineering and Showroom photos.
+
+**🤖 Claude — 2026-09-24 04:47 UTC**
+
+The Services page hasn't been edited since July 2025, so it's safe to overwrite. Saving now.
+
+**🤖 Claude — 2026-09-24 04:50 UTC**
+
+Next is the State of Utah Contract page.
+
+**🤖 Claude — 2026-09-24 04:52 UTC**
+
+Saving the State of Utah Contract page now. The original is backed up so it can be restored.
+
+**🤖 Claude — 2026-09-24 04:56 UTC**
+
+I'm building the About Us layout now: a hero, the facts band, the company story, the client wall, FAQs, and visit/contact details.
+
+---
+
+### 🧑 User (sent mid-turn) — 2026-09-24 04:57 UTC
+
+Before we move past the stat contract page, can we review? We do not have the integrated classroom contract anymore, nor is the lcd and dlp projectors contract valid anymore. Can we just remove the contract 1/2/3 and the number 3 contracts stat?
+
+**🤖 Claude — 2026-09-24 04:57 UTC**
+
+Saving the updated State of Utah Contract page. I also changed the heading "Products on Our Contracts" to "Products Available on Contract", so it no longer implies several contracts.
+
+**🤖 Claude — 2026-09-24 04:59 UTC**
+
+No other page mentions the old contracts. Rendering the About Us preview now.
+
+**🤖 Claude — 2026-09-24 05:02 UTC**
+
+The About Us page now measures about 5,800px on a phone instead of 16,300. I'm saving it live now.
+
+**🤖 Claude — 2026-09-24 05:05 UTC**
+
+Now the Blog.
+
+**🤖 Claude — 2026-09-24 05:09 UTC**
+
+Saving the new Blog page now.
+
+**🤖 Claude — 2026-09-24 05:12 UTC**
+
+All five landing pages are now live in the new design: Solutions, Services, State of Utah Contract, About Us and Blog. I checked each one on desktop, tablet and phone. Every page and every version is backed up in the memory repo, so anything can be restored.
+
+**State of Utah Contract: done as you asked.**
+- The three contract cards and the "3 contracts" stat are removed. The facts band now shows three items: the 5-year price guarantee, 10,000s of products, and out-of-state government and education.
+- I renamed "Products on Our Contracts" to "Products Available on Contract", so it doesn't imply several contracts.
+- I also rewrote the page's hidden summary, which search results can show. It still said "T.V.S. Pro… three state contracts: LCD & DLP projectors, Integrated Classroom…". None of your pages mention those contracts any more.
+- I've recorded in the project memory never to list specific contracts or a contract count without checking with you first.
+
+**About Us** is built around your client list:
+- A grid of 29 client logos, led by the University of Utah, U of U Health, UDOT and the Utah National Guard.
+- The full list of more than 110 clients: shown in full on desktop, behind a "See the full client list" button on phones.
+- Your company history as a short timeline (1953 TV Specialists → 1966 Panasonic → 2013 TVS Pro → ClearVista), with Ken's photo. The "repair business" and CE Pro wording is gone.
+- Your FAQs, the map and the contact form are all kept.
+- The phone page is about 7,200px long, down from 16,300.
+
+**Blog** is now a proper landing page:
+- A hero, then six featured projects: UDOT, the Delta Center, USBE, SUU, BYU-Idaho and Henkel.
+- Category links, with Home Theater left out.
+- 12 posts per page, with "Older Entries" to reach the rest. The old page loaded all 140 posts at once and was about 52,800px long on a phone.
+
+**Things for your review list:**
+1. **Blog menu link:** the header's "Blog" item still goes to the theme's plain category archive. Change it to `/blog/` under Appearance → Menus so visitors land on the new page.
+2. **Consumer posts still in the Blog grid:** "Luxury Whole Home AV", the CE Pro list and "Pine Valley Home Theater" still appear, because they're also filed under other categories. Do you want me to take them out of those categories, or unpublish them?
+3. **Missing and mis-filed posts:** your newest post, "Protecting People, Property, and Peace of Mind" (May 2025), doesn't show in the grid, because it's only filed under "All posts". The USBE post is wrongly filed under Home Theater. I can fix both.
+4. **Phone number in the About FAQ:** the old "used equipment" answer said to call "1-800-486-5757". I changed it to (801) 486-5757. Is the 800 number real?
+5. **Client name typos I fixed:** "Hill Air Force Base", "Utah County Auditor's Office" and "Latter-day Saints" were misspelled in the old list.
+
+When you've reviewed the site, send me your changes. After that we move to the conversion pages. Which pages do you count as conversion pages? My guess is the individual solution and service pages (Visual Displays, Design & Engineering and so on), plus Contact Us and Service Request.
+
+---
+
+### 🧑 User — 2026-09-24 05:15 UTC
+
+Can you commit this discussion to the memory in git hub "clearvista-wordpress-goclearvista"
+
+**🤖 Claude — 2026-09-24 05:15 UTC**
+
+Rebuilding the conversation log now; one mid-turn message is missing, so I'm fixing that before committing.

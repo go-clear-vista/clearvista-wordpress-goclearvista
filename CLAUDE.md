@@ -206,6 +206,14 @@ The full discussion is in `docs/conversation-log.md`.
 - a larger Why ClearVista project photo
 - a real team/showroom photo for the Services cards if one exists
 
+**Decisions asked on 2026-09-24 (after the landing pages went live):**
+1. Change the header "Blog" menu item to `/blog/` (Appearance → Menus; owner action).
+2. Consumer posts still in the Blog grid (Luxury Whole Home AV 252612, CE Pro list 252148, Pine Valley Home Theater 252074): take them out of the other categories, or unpublish?
+3. Put the May 2025 post "Protecting People, Property, and Peace of Mind" into a shown category, and remove the Home Theater tags from the USBE post 252485?
+4. Is the old "used equipment" number 1-800-486-5757 real? (The About FAQ now says (801) 486-5757.)
+5. Merge this memory repo's `claude/zealous-keller-b29qex` branch into main, or open a PR?
+6. Which pages count as the tier-3 "conversion pages"? (Guess: the solution/service detail pages plus contact-us and service-request.)
+
 **Follow-ups:**
 - Clear the WP Rocket cache after each hand edit.
 - The home page's preload link may still reference the old conference room photo until the cache is cleared.
