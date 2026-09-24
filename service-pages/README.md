@@ -24,6 +24,6 @@ To publish a page, paste the `.divi.txt` content into the page (or send it throu
 ## Notes
 
 - Never use `[` or `]` in page copy; Divi treats them as shortcodes. `gen.py` asserts on this.
-- `/walk-in-showroom/` is currently a temporary forward page (ID 254204, meta refresh). Replace it with a 301 in Tools → Redirection, then trash that page.
+- `/walk-in-showroom/` 301-redirects to `/experience-center/` via the Redirection plugin (Tools → Redirection).
 - SLA tier data lives in `TIER_ROWS` in `gen.py`; update it (and `SLA_PDF`) when the plan PDF changes.
 - `previews/` contains local screenshots rendered against the live theme CSS.
