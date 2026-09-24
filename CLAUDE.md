@@ -164,28 +164,29 @@ The full discussion is in `docs/conversation-log.md`.
 - Full width comes from Custom CSS: `.et-l--footer .et_pb_row:has(.cvf){width:100%!important;max-width:100%!important;padding:0!important;margin:0!important}`.
 - The BBB seal and Google-review badge were removed. "Store hours" now reads "Office Hours".
 
-## In progress / waiting on the owner
+### Services page (backup `page-183281_2026-09-23T214859.divi.txt`; original in `..._2025-07-02...`)
+- **Hero:** "Professional Services" over the team photo.
+- **"One Team. Every Stage.":** Utah's first Authorized Professional Panasonic dealer, 100+ brands, link to the Product Line Card.
+- **Six service cards.** Two card photos were swapped to remove the TVS Pro banners:
+  - Design & Engineering → `2022/08/Design-Engineering-Feature`.
+  - Walk-In Showroom → `2023/05/IMG-6694`.
+- **Delta Center "Project Spotlight":** arena photo, "900+ pieces of equipment installed", Sound & Communications feature, link to the blog story. The owner approved keeping "(then TVS Pro)" because the published article names TVS Pro.
+- **"Let's Talk About Your Project" band** above the Services form (`?ref=Services`).
+- The "Did You Know?" puzzle section was removed.
 
-**Services page redesign.**
-- A preview is built (`notes/services-code.html`, `notes/previews/services-after-*.png`); **it is not live yet.** The original page content is in `page-backups/page-183281_2025-07-02T155000.divi.txt`.
-- Four decisions are pending:
-  1. Keep "(then TVS Pro)" in the Delta Center spotlight?
-  2. Is the arena photo `2018/12/VivintSmartHomeArena.jpg` OK to use publicly?
-  3. Two card photos show the "TVS PRO" banner (Design & Engineering, Walk-In Showroom). Are replacements coming?
-  4. Are the card descriptions accurate?
-- Plan for the saved page: one Code module (hero, intro, cards, spotlight, CTA band), followed by the existing Services form section with `?ref=Services`. The "Did You Know?" section gets removed.
-
-**Photos waiting on the owner:**
-- the About Us tile
+## Waiting on the owner
+**Photos:**
+- the About Us tile on the home page
 - a larger Why ClearVista project photo
-- replacements for the TVS Pro banner photos
+- a real team/showroom photo for the Services cards if one exists
 
-**Open follow-ups:**
-- Tell the owner to clear the WP Rocket cache after each hand edit.
-- The home page's preload link may still point at the old conference room photo until the cache is cleared.
+**Follow-ups:**
+- Clear the WP Rocket cache after each hand edit.
+- The home page's preload link may still reference the old conference room photo until the cache is cleared.
+
+**Owner's plan:** once every change is done, the owner reviews the whole site and sends specific change requests.
 
 ## Next up
-1. Services: apply it once approved.
 2. The State of Utah Contract page.
 3. About Us.
 4. Blog.
