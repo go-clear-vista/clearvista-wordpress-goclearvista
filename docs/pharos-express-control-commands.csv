@@ -1,0 +1,9 @@
+Command,Direction,Qualifiers,Value,API Call,Notes
+RecallScene,Set,None,Scene number (0 or higher),"POST api/scene {""action"":""recall"",""num"":<value>}",Emulated feedback
+MasterIntensity,"Set, Update",Space ID (0 or higher),0-100 (%),"Set: POST api/space {""num"":<space>,""action"":""master_intensity"",""level"":<value/100>}. Update: read from api/space",Emulated feedback
+ChannelIntensity,Set,"Port (1 or 2, DMX universe); Channel ID (0 or higher)",0-255,"POST api/channel {""universe"":""dmx:<port>"",""channels"":""<id>"",""level"":<value>}",Emulated feedback
+ActiveScene,Update (read only),"Space ID; Type (Name or ID)",Scene name or number,GET api/space (active_scene),Also refreshes MasterIntensity and scene list; throttled to once per 3 s
+AvailableScenesListUpdate,Set,"Space ID; Type (Name or ID)",None,GET api/space (child_scenes),Loads list into scroller
+AvailableScenesListNavigation,Set,"Space ID; Type (Name or ID)","Up, Down, Page Up, Page Down",Local only,Scrolls cached list
+AvailableScenesListResults,Status feedback only,"Space ID; Position; Type",Scene name or ID text,Local only,Shows current scroller page
+FirmwareVersion,Update (read only),None,Version string,GET api/system (firmware_version),
