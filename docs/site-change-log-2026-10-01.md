@@ -13,6 +13,11 @@
 - **Verified live:** new iframe served on desktop and mobile caches, Fluent form gone, file-upload input present, no horizontal overflow at 1440px or 390px.
 - **Not verified from Claude's environment:** the styled look of the form and its final height, because `static.zohocdn.com` was still blocked by the session's network policy. ClearVista to check the page on desktop and phone.
 
+### Height adjustment (14:13)
+- ClearVista hid the Zoho form title, which removes the duplicate heading.
+- Their desktop screenshot showed the frame running about 220px past the form card: Zoho does not post its height, so the auto-resize script never fires. Frame height set to **1500px desktop** (was 1700) and **1800px under 768px** (was 2100, estimated, waiting on a phone screenshot).
+- Backup: `page-backups/page-253966_2026-10-01T141322.divi.txt`. Verified live on desktop and mobile caches.
+
 ### Follow-ups
-- The Zoho form shows its own "Submit a Service Request" title under the page heading. Hide the form title in Zoho (form properties) to remove the duplicate.
+- Confirm the phone height from a phone screenshot.
 - Fluent Forms form 3 is no longer used on this page. Leave it, or delete it in WP Admin once nothing else uses it.
